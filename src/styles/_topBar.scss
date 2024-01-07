@@ -1,0 +1,65 @@
+ .topBar-container {
+     display: flex;
+     gap: 1rem;
+ }
+
+ /* Style for the input box container */
+ .search-container {
+     position: relative;
+     width: 300px;
+ }
+
+ /* Style for the input box with icon */
+ .search-box {
+     width: 100%;
+     padding: 10px;
+     box-sizing: border-box;
+     border: 1px solid #ccc;
+     border-radius: 15px;
+     padding-left: 30px;
+     /* Adjust based on the icon width */
+ }
+
+ /* Style for the search icon */
+ .search-icon {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     left: 10px;
+     color: #666;
+ }
+
+ .topBar-btn {
+     padding: 0.7rem;
+     border-radius: 17px;
+     color: #ffff;
+     border: none;
+     background: #3A36CE;
+     font-weight: 300;
+ }
+
+
+ .topBar-menu-container {
+     display: flex;
+     gap: 1rem;
+ }
+
+ .topBar-menu {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 5px;
+
+     p {
+         padding: 0;
+         margin: 0;
+         font-size: 14px;
+     }
+ }
+
+ .topBar-menu_icon {
+     background-color: #ccc;
+     border-radius: 50%;
+     padding: 0.4rem;
+     text-align: center;
+ }

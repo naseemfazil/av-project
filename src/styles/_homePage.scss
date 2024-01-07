@@ -2,6 +2,8 @@
     background-color: white;
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
+
 }
 
 .home {
@@ -9,16 +11,22 @@
 }
 
 .sidebar {
-    width: 15%;
+    // width: 15%;
+    position: relative;
     background-image: linear-gradient(#3A36CE, #FF0043);
     height: 100vh;
     color: #ffff;
     opacity: 1;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-self: stretch;
 }
 
 
 .topbar {
     background-color: violet;
+    padding: 1rem;
 }
 
 
@@ -29,18 +37,19 @@
 
 }
 
-.width-90{
-width: 90%;
+.width-90 {
+    width: 90%;
 }
 
-.width-45{
-    width: 45%;
+.width-49 {
+    width: 49%;
     background-color: white;
 }
 
-.content{
+.content {
     background-color: #F8F9FA;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    padding: 20px;
 }

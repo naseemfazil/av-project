@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Group_3287" data-name="Group 3287" transform="translate(-1486 -353)">
+    <g id="Group_1196" data-name="Group 1196" transform="translate(493 270)">
+      <g id="Rectangle_80" data-name="Rectangle 80" transform="translate(993 83)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+        <rect width="28" height="28" stroke="none"/>
+        <rect x="0.5" y="0.5" width="27" height="27" fill="none"/>
+      </g>
+    </g>
+    <path id="Icon_material-explore" data-name="Icon material-explore" d="M11.365,10.445a.92.92,0,1,0,.92.92A.917.917,0,0,0,11.365,10.445Zm0-7.445a8.365,8.365,0,1,0,8.365,8.365A8.368,8.368,0,0,0,11.365,3ZM13.2,13.2,6.346,16.384,9.533,9.533l6.851-3.187Z" transform="translate(1489 356)" fill="none" stroke="#f9f9f9" stroke-width="1"/>
+  </g>
+</svg>

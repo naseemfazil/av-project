@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Group_71" data-name="Group 71" transform="translate(-1026 -261)">
+    <g id="Rectangle_102" data-name="Rectangle 102" transform="translate(1026 261)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="28" height="28" stroke="none"/>
+      <rect x="0.5" y="0.5" width="27" height="27" fill="none"/>
+    </g>
+    <g id="Icon_ionic-md-stats" data-name="Icon ionic-md-stats" transform="translate(1024.375 259.5)">
+      <path id="Path_2784" data-name="Path 2784" d="M12.375,4.5h3.667v22H12.375Z" transform="translate(-1.25)" fill="#fdfafa"/>
+      <path id="Path_2785" data-name="Path 2785" d="M5.625,23.625H9.292v6.417H5.625Z" transform="translate(0 -3.542)" fill="#fdfafa"/>
+      <path id="Path_2786" data-name="Path 2786" d="M19.125,19.125h3.667V29.208H19.125Z" transform="translate(-2.5 -2.708)" fill="#fdfafa"/>
+      <path id="Path_2787" data-name="Path 2787" d="M25.875,12.375h3.667V27.958H25.875Z" transform="translate(-3.75 -1.458)" fill="#fdfafa"/>
+    </g>
+  </g>
+</svg>

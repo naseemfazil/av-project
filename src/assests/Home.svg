@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Group_71" data-name="Group 71" transform="translate(-1026 -261)">
+    <g id="Rectangle_102" data-name="Rectangle 102" transform="translate(1026 261)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="28" height="28" stroke="none"/>
+      <rect x="0.5" y="0.5" width="27" height="27" fill="none"/>
+    </g>
+    <g id="Icon_feather-home" data-name="Icon feather-home" transform="translate(1025.551 262.367)">
+      <path id="Path_2782" data-name="Path 2782" d="M4.5,10.265,13.841,3l9.341,7.265V21.682a2.076,2.076,0,0,1-2.076,2.076H6.576A2.076,2.076,0,0,1,4.5,21.682Z" fill="none" stroke="#fdfafa" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_2783" data-name="Path 2783" d="M13.5,28.379V18h6.227V28.379" transform="translate(-2.773 -4.621)" fill="none" stroke="#fdfafa" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
