@@ -10,11 +10,11 @@ const SideBar = () => {
                 <div>
                     credentech
                 </div>
+                <div className='sidebar-toggle'>
+                    icon
+                </div>
+            </div>
 
-            </div>
-            <div className='sidebar-toggle'>
-                icon
-            </div>
             <div className='side-container'>
                 <ul>
                     <li><span><img src={Home} alt="" /></span> Home</li>
