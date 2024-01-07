@@ -1,11 +1,11 @@
 import React from 'react';
 import '../styles/_todayCelebration.scss';
-
+import '../styles/_common.scss';
 
 const TodayCelabration = () => {
     return (
 
-        <div className='today-celebration' >
+        <div className='today-celebration card' >
 
             <div className="heading-row">
                 <span>

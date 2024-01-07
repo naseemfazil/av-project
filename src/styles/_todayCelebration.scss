@@ -1,18 +1,10 @@
 .today-celebration {
-    background-color: white;
-    padding: 15px;
-    height: 100%;
 
     .heading {}
 
-    .heading-row {
-        display: flex;
-        justify-content: space-between;
-        font-size: 24px;
-        font-weight: bold;
-    }
 
     .scroll-content {
+        padding-top: 10px;
 
         .details-card {
             display: flex;
@@ -23,7 +15,6 @@
                 display: flex;
                 gap: 10px;
                 background-color: white;
-
 
                 .person-name {
                     font-size: 16px;
@@ -44,6 +35,7 @@
                     flex-direction: column;
                     justify-content: center;
                     background-color: white;
+                    gap: 5px;
                 }
             }
 
