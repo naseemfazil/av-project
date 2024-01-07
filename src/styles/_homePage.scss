@@ -16,11 +16,9 @@
     opacity: 1;
 }
 
-
 .topbar {
     background-color: violet;
 }
-
 
 .primary-btn {
     background: #3A36CE 0% 0% no-repeat padding-box;
@@ -49,4 +47,11 @@
 .card-height {
     min-height: 40vh;
     max-height: 40vh;
+}
+
+.heading-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: bold;
 }
