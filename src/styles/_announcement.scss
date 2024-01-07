@@ -1,3 +1,28 @@
-.announcement{
-    
+.announcement {
+    background-color: white;
+    padding: 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .announcement-content {
+        .dear-gamers {
+            padding: 10px 0px;
+            font-weight: bold;
+        }
+
+        .para {
+            line-height: 1.8;
+        }
+    }
+
+    .bottom-row {
+        display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+        text-decoration: underline;
+        font-size: 18px;
+    }
+
 }

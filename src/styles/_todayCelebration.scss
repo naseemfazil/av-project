@@ -1,6 +1,7 @@
 .today-celebration {
     background-color: white;
     padding: 15px;
+    height: 100%;
 
     .heading {}
 
@@ -16,7 +17,7 @@
         .details-card {
             display: flex;
             justify-content: space-between;
-            padding: 15px 0px 15px 0px;
+            padding: 5px 0px 15px 0px;
 
             .content {
                 display: flex;

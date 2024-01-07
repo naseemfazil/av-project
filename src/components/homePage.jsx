@@ -23,7 +23,7 @@ const HomePage = () => {
 
                     {/* <div className='content'>
 
-                        <div >
+                        <div className='card-height' >
                             <Slider></Slider>
                         </div>
 
@@ -45,6 +45,8 @@ const HomePage = () => {
 
 
                     </div> */}
+
+
 
 
                 </div>
