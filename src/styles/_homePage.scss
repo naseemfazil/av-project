@@ -1,0 +1,46 @@
+.homepage {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home {
+    width: 85%;
+}
+
+.sidebar {
+    width: 15%;
+    background-image: linear-gradient(#3A36CE, #FF0043);
+    height: 100vh;
+    color: #ffff;
+    opacity: 1;
+}
+
+
+.topbar {
+    background-color: violet;
+}
+
+
+.primary-btn {
+    background: #3A36CE 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.width-90{
+width: 90%;
+}
+
+.width-45{
+    width: 45%;
+    background-color: white;
+}
+
+.content{
+    background-color: #F8F9FA;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

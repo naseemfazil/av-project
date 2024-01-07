@@ -1,0 +1,27 @@
+.sidebar-header{
+    margin-left: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.4rem;
+
+    .sidebar-toggle {
+        background-color: #a8a8be;
+        padding: 1rem;
+        border-radius: 12px 0px 0px 12px;
+    }
+}
+
+.side-container {
+
+    ul {
+        list-style-type: none;
+
+        li {
+
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+}

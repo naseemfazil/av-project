@@ -1,0 +1,56 @@
+.today-celebration {
+    background-color: white;
+    padding: 15px;
+
+    .heading {}
+
+    .heading-row {
+        display: flex;
+        justify-content: space-between;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .scroll-content {
+
+        .details-card {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 0px 15px 0px;
+
+            .content {
+                display: flex;
+                gap: 10px;
+                background-color: white;
+
+
+                .person-name {
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+
+                .event-name {
+                    font-size: 14px;
+                    font-weight: medium;
+                }
+
+                img {
+                    border-radius: 50%;
+                }
+
+                .person-details {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    background-color: white;
+                }
+            }
+
+            .button {
+                display: flex;
+                align-items: center;
+            }
+        }
+
+    }
+}
