@@ -29,18 +29,24 @@
 
 }
 
-.width-90{
-width: 90%;
+.width-100 {
+    width: 100%;
 }
 
-.width-45{
-    width: 45%;
+.width-49 {
+    width: 49%;
     background-color: white;
 }
 
-.content{
+.content {
     background-color: #F8F9FA;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    padding: 20px;
+}
+
+.card-height {
+    min-height: 40vh;
+    max-height: 40vh;
 }

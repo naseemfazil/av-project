@@ -3,13 +3,21 @@ import '../styles/_announcement.scss';
 
 
 const Announcement = () => {
-    return (  
+    return (
         <div className='announcement'>
-            <h3>
+            <div className='top-row'>
                 Announcement
-            </h3>
+            </div>
+
+            <div className='body-content'>
+
+            </div>
+
+            <div className='bottom-row'>
+
+            </div>
         </div>
-      );
+    );
 }
 
 export default Announcement;

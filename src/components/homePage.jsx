@@ -17,29 +17,34 @@ const HomePage = () => {
                 <div className='home'>
 
                     <div className='topbar'>
-                          
+
                     </div>
 
                     <div className='content'>
 
-                        <div >
+                        <div className='card-height' >
                             <Slider></Slider>
                         </div>
 
-                        <div className='width-45' >
+                        <div className='width-49 card-height ' >
                             <Announcement></Announcement>
                         </div>
 
-                        <div className='width-45'>
+                        <div className='width-49 card-height '>
                             <TodayCelabration></TodayCelabration>
                         </div>
 
-                        <div className='width-45'>
+                        <div className='width-49 card-height '>
                             <ExpandCircle></ExpandCircle>
                         </div>
 
-                        <div className='width-45'>
+                        <div className='width-49 card-height '>
                             <UpcomingEvents></UpcomingEvents>
+                        </div>
+
+                        <div className='width-100'>
+                            <iframe width={'100%'} height="315"
+                                src="https://www.youtube.com/embed/2ywxK3HC4iA?autoplay=i" frameborder="0" allowfullscreen></iframe>
                         </div>
 
 
