@@ -18,18 +18,18 @@ const SideBar = () => {
             <div className='side-container'>
                 <ul>
                     <li><span><img src={Home} alt="" /></span> Home</li>
-                    <li> Social Hub</li>
-                    <li>Project oversight</li>
-                    <li>Survey Hub</li>
+                    <li><span><img src={Home} alt="" /></span>  Social Hub</li>
+                    <li><span><img src={Home} alt="" /></span>  Project oversight</li>
+                    <li><span><img src={Home} alt="" /></span>  Survey Hub</li>
                 </ul>
             </div>
             <div className='side-container_sub-container'>
 
                 <ul>
-                    <li> Home</li>
-                    <li>Social Hub</li>
-                    <li>Project oversight</li>
-                    <li>Survey Hub</li>
+                    <li><span><img src={Home} alt="" /></span> Home</li>
+                    <li><span><img src={Home} alt="" /></span>  Social Hub</li>
+                    <li><span><img src={Home} alt="" /></span>  Project oversight</li>
+                    <li><span><img src={Home} alt="" /></span>  Survey Hub</li>
                 </ul>
             </div>
             <div className='side-bottom_container'>
