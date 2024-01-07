@@ -1,4 +1,56 @@
-.upcoming-events{
+.upcoming-events {
     height: 100%;
+}
 
+.details-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px 15px 0px;
+
+    .event-content {
+        display: flex;
+        gap: 10px;
+        background-color: white;
+
+        .date {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            background-color: #F8F8F8;
+            border-radius: 15px;
+
+            .date-lable {
+                font-weight: bold;
+            }
+        }
+
+        .event-name {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .place-name {
+            font-size: 14px;
+            font-weight: medium;
+            color: #6C757D;
+        }
+
+        img {
+            border-radius: 50%;
+        }
+
+        .event-details {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: white;
+            gap: 5px
+        }
+    }
+
+    .button {
+        display: flex;
+        align-items: center;
+    }
 }

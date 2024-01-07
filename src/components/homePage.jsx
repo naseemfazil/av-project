@@ -21,7 +21,7 @@ const HomePage = () => {
                         <TopBar />
                     </div>
 
-                    {/* <div className='content'>
+                    <div className='content'>
 
                         <div className='card-height' >
                             <Slider></Slider>
@@ -44,10 +44,7 @@ const HomePage = () => {
                         </div>
 
 
-                    </div> */}
-
-
-
+                    </div>
 
                 </div>
             </div>

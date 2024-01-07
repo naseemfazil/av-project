@@ -1,10 +1,11 @@
 import React from 'react';
 import '../styles/_announcement.scss';
+import '../styles/_common.scss';
 
 
 const Announcement = () => {
     return (
-        <div className='announcement'>
+        <div className='announcement card'>
 
             <div className='announcement-body'>
 
