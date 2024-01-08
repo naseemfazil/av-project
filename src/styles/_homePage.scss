@@ -3,7 +3,6 @@
     display: flex;
     // flex-wrap: wrap;
     overflow: hidden;
-
 }
 
 .home {
@@ -11,9 +10,8 @@
 }
 
 .sidebar {
-    // width: 15%;
     position: relative;
-    background-image: linear-gradient(#3A36CE, #FF0043);
+    background-image: linear-gradient(119deg,#3A36CE, #FF0043);
     height: 100vh;
     color: #ffff;
     opacity: 1;
