@@ -24,24 +24,24 @@ const HomePage = () => {
                     <div className='content'>
 
                         <div className='card-height' >
-                            <Slider></Slider>
+                            <Slider />
                         </div>
 
                         <div className='width-49' >
-                            <Announcement></Announcement>
+                            <Announcement />
                         </div>
 
-                        <div className='width-49'>
+                        {/* <div className='width-49'>
                             <TodayCelabration></TodayCelabration>
-                        </div>
+                        </div> */}
 
-                        <div className='width-49'>
+                        {/* <div className='width-49'>
                             <ExpandCircle></ExpandCircle>
-                        </div>
+                        </div> */}
 
-                        <div className='width-49'>
+                        {/* <div className='width-49'>
                             <UpcomingEvents></UpcomingEvents>
-                        </div>
+                        </div> */}
 
 
                     </div>

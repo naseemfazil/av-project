@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/_slider.scss';
+import '../styles/_commonStyles.scss';
 
 const Slider = () => {
     return (
@@ -9,15 +10,17 @@ const Slider = () => {
             <div className='survey slider-child-width'>
 
                 <div className='heading'>
-                    Survey
+                    <h4>Survey</h4>
                 </div>
-
-                <div className='text-content'>
-                    Share and contribute to valuable information in our community survey.
+                <div className='survey-content'>
+                    <div className='text-content'>
+                        Share and contribute to valuable information in our community survey.
+                    </div>
+                    <img src='' alt='' />
                 </div>
                 <div className='button'>
-                    <button className='primary-btn'>
-                        Let's explore
+                    <button className='primary_btn'>
+                        Let's explore!
                     </button>
                 </div>
             </div>

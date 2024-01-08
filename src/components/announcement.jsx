@@ -1,4 +1,6 @@
 import React from 'react';
+import Forward from '../assests/Forward and Backward Icon.svg';
+import TopArrow from '../assests/Top-arrow.svg';
 import '../styles/_announcement.scss';
 import '../styles/_common.scss';
 
@@ -14,7 +16,7 @@ const Announcement = () => {
                         Announcement
                     </span>
                     <span>
-                        icon
+                        <img src={TopArrow} alt='' />
                     </span>
                 </div>
 
@@ -33,7 +35,7 @@ const Announcement = () => {
                     Read more
                 </span>
                 <span>
-                    icon
+                    <img src={Forward} alt="" />
                 </span>
             </div>
         </div>

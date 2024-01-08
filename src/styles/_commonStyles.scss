@@ -1,0 +1,33 @@
+.primary_btn {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    color: #ffff;
+    background-color: #3A36CE;
+    text-align: center;
+    font-weight: 200;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.secondary_btn {
+    // @extend .primary_btn;
+    padding: 0.5rem 1.5rem;
+    border: 0.5px solid #3A36CE;
+    color: #3A36CE;
+    background-color: #F0EFFB;
+    text-align: center;
+    font-weight: 200;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.round_btn {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    color: #ffff;
+    background-color: #3A36CE;
+    text-align: center;
+    font-weight: 200;
+    font-size: 12px;
+    border-radius: 15px
+}
