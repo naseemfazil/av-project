@@ -77,7 +77,7 @@ const TopBar = () => {
                     <div className='topBar-menu_icon'>
                         <img src={People} alt="" />
                     </div>
-                    <p style={{display:'flex',alignItems:"center"}}>You <span><img src={DownArrow} width={20} alt=''/></span></p>
+                    <p style={{display:'flex',alignItems:"center"}}>You </p>
                 </div>
             </div>
         </div>
