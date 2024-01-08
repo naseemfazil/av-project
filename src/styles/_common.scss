@@ -5,8 +5,57 @@
     font-weight: bold;
 }
 
+.width-90 {
+    width: 90%;
+}
+
+.width-99 {
+    width: 99%;
+}
+
+.width-49 {
+    width: 49%;
+    background-color: white;
+}
+
 .card {
     background-color: white;
     padding: 15px;
-    height: 100%;
+    min-height: 40vh;
+    max-height: 40vh;
+    overflow-y: auto;
 }
+
+.child-card {
+    display: flex;
+    gap: 20px;
+    width: 30vh;
+    height: 30vh;
+    flex-direction: column;
+    border-radius: 14px;
+    background-color: blanchedalmond;
+    padding: 10px;
+
+    .child-heading-row {
+        display: flex;
+        justify-content: flex-end;
+        min-height: 10vh;
+    }
+
+
+    .child-content {
+        background-color: #F8F9FA;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 20px;
+        justify-content: center;
+        // background-color: blanchedalmond;
+    }
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-medium {}

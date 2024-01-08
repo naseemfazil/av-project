@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/_homePage.scss';
+import '../styles/_common.scss';
 import SideBar from './sideBar';
 import TodayCelabration from './todayCelebration';
 import Slider from './slider';
@@ -7,6 +8,7 @@ import Announcement from './announcement';
 import ExpandCircle from './expandCircle';
 import UpcomingEvents from './upcomingEvents';
 import TopBar from './topBar';
+import SocialHub from './socialHub';
 
 const HomePage = () => {
     return (
@@ -43,6 +45,9 @@ const HomePage = () => {
                             <UpcomingEvents></UpcomingEvents>
                         </div>
 
+                        <div className='width-99'>
+                            <SocialHub></SocialHub>
+                        </div>
 
                     </div>
 
