@@ -1,5 +1,7 @@
 import React from 'react';
-import '../styles/_upcomingEvents.scss'
+import '../styles/_commonStyles.scss';
+import '../styles/_upcomingEvents.scss';
+import TopArrow from '../assests/Top-arrow.svg';
 
 const UpcomingEvents = () => {
     return (
@@ -11,11 +13,11 @@ const UpcomingEvents = () => {
                     Upcoming Events
                 </span>
                 <span>
-                    icon
+                    <img src={TopArrow} alt='' />
                 </span>
             </div>
 
-            <div className="scroll-content">
+            <div className="upcoming-event_details-container">
 
                 <div className="details-card">
                     <span className="event-content">
@@ -33,9 +35,9 @@ const UpcomingEvents = () => {
                                 Benford Black
                             </span>
                             <span className="place-name">
-                                <span>
+                                {/* <span>
                                     icon
-                                </span>
+                                </span> */}
                                 <span>
                                     Celebrating birthday
                                 </span>
@@ -45,8 +47,147 @@ const UpcomingEvents = () => {
 
                     <span className="button">
                         <span>
-                            <button className='primary-btn'>
+                            <button className='primary_btn'>
                                 Notify me
+                            </button>
+                        </span>
+                    </span>
+                </div>
+
+                <div className="details-card">
+                    <span className="event-content">
+                        <span className='date'>
+                            <span className='date-lable'>
+                                22
+                            </span>
+                            <span>
+                                Feb
+                            </span>
+                            {/* <img height="50" width="50" src={'https://randomuser.me/api/portraits/men/20.jpg'} alt="Avatar"></img> */}
+                        </span>
+                        <span className="event-details">
+                            <span className="event-name">
+                                Benford Black
+                            </span>
+                            <span className="place-name">
+                                {/* <span>
+                                    icon
+                                </span> */}
+                                <span>
+                                    Celebrating birthday
+                                </span>
+                            </span>
+                        </span>
+                    </span>
+
+                    <span className="button">
+                        <span>
+                            <button className='secondary_btn'>
+                                Alread notified
+                            </button>
+                        </span>
+                    </span>
+                </div>
+
+                <div className="details-card">
+                    <span className="event-content">
+                        <span className='date'>
+                            <span className='date-lable'>
+                                22
+                            </span>
+                            <span>
+                                Feb
+                            </span>
+                            {/* <img height="50" width="50" src={'https://randomuser.me/api/portraits/men/20.jpg'} alt="Avatar"></img> */}
+                        </span>
+                        <span className="event-details">
+                            <span className="event-name">
+                                Benford Black
+                            </span>
+                            <span className="place-name">
+                                {/* <span>
+                                    icon
+                                </span> */}
+                                <span>
+                                    Celebrating birthday
+                                </span>
+                            </span>
+                        </span>
+                    </span>
+
+                    <span className="button">
+                        <span>
+                            <button className='primary_btn'>
+                                Notify me
+                            </button>
+                        </span>
+                    </span>
+                </div>
+                <div className="details-card">
+                    <span className="event-content">
+                        <span className='date'>
+                            <span className='date-lable'>
+                                22
+                            </span>
+                            <span>
+                                Feb
+                            </span>
+                            {/* <img height="50" width="50" src={'https://randomuser.me/api/portraits/men/20.jpg'} alt="Avatar"></img> */}
+                        </span>
+                        <span className="event-details">
+                            <span className="event-name">
+                                Benford Black
+                            </span>
+                            <span className="place-name">
+                                {/* <span>
+                                    icon
+                                </span> */}
+                                <span>
+                                    Celebrating birthday
+                                </span>
+                            </span>
+                        </span>
+                    </span>
+
+                    <span className="button">
+                        <span>
+                            <button className='primary_btn'>
+                                Notify me
+                            </button>
+                        </span>
+                    </span>
+                </div>
+
+                <div className="details-card">
+                    <span className="event-content">
+                        <span className='date'>
+                            <span className='date-lable'>
+                                22
+                            </span>
+                            <span>
+                                Feb
+                            </span>
+                            {/* <img height="50" width="50" src={'https://randomuser.me/api/portraits/men/20.jpg'} alt="Avatar"></img> */}
+                        </span>
+                        <span className="event-details">
+                            <span className="event-name">
+                                Benford Black
+                            </span>
+                            <span className="place-name">
+                                {/* <span>
+                                    icon
+                                </span> */}
+                                <span>
+                                    Celebrating birthday
+                                </span>
+                            </span>
+                        </span>
+                    </span>
+
+                    <span className="button">
+                        <span>
+                            <button className='secondary_btn'>
+                                Alread notified
                             </button>
                         </span>
                     </span>

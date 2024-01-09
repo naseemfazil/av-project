@@ -9,6 +9,7 @@ import ExpandCircle from './expandCircle';
 import UpcomingEvents from './upcomingEvents';
 import TopBar from './topBar';
 import SocialHub from './socialHub';
+import AppreciationAwards from './appreciationAwards';
 
 const HomePage = () => {
     return (
@@ -33,20 +34,24 @@ const HomePage = () => {
                             <Announcement />
                         </div>
 
-                        {/* <div className='width-49'>
-                            <TodayCelabration></TodayCelabration>
-                        </div> */}
+                        <div className='width-49'>
+                            <TodayCelabration />
+                        </div>
 
-                        {/* <div className='width-49'>
+                        <div className='width-49'>
                             <ExpandCircle></ExpandCircle>
-                        </div> */}
+                        </div>
 
-                        {/* <div className='width-49'>
-                            <UpcomingEvents></UpcomingEvents>
-                        </div> */}
+                        <div className='width-49'>
+                            <UpcomingEvents />
+                        </div>
 
                         <div className='width-99'>
-                            <SocialHub></SocialHub>
+                            <SocialHub />
+                        </div>
+
+                        <div className='width-99'>
+                            <AppreciationAwards />
                         </div>
 
                     </div>

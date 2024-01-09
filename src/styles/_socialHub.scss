@@ -1,1 +1,21 @@
-.social-hub {}
+.child-card {
+
+    background-image: url('../assests/Social\ Hub\ -\ Post.svg');
+}
+
+.social-hub_container{
+    display: flex;
+    gap: 1rem;
+}
+
+.social-hub {
+    
+} 
+
+.social-hub_content {
+    margin-top: 4rem;
+}
+
+.social-hub_sub-content {
+    text-align: center;
+}
