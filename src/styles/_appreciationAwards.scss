@@ -1,6 +1,8 @@
 .explore-card {
     background-image: url('../assests/Appreciation\ and\ Awards.svg');
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .explore-heading {
@@ -47,9 +49,10 @@
 }
 
 .explore-content {
-    max-width: 900px;
+    max-width: 500px;
     text-align: center;
     display: flex;
+    align-self: center;
     justify-content: center;
 }
 

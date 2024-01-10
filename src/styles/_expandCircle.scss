@@ -1,0 +1,50 @@
+.expand-cricle {
+
+    .heading {}
+
+
+    .scroll-content {
+        padding-top: 10px;
+
+        .details-card {
+            display: flex;
+            justify-content: space-between;
+            padding: 1px 0px 1px 0px;
+
+            .content {
+                display: flex;
+                gap: 10px;
+                background-color: white;
+
+                .person-name {
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+
+                .event-name {
+                    font-size: 14px;
+                    font-weight: medium;
+                    display: flex;
+                }
+
+                img {
+                    border-radius: 50%;
+                }
+
+                .person-details {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    background-color: white;
+                    gap: 5px;
+                }
+            }
+
+            .button {
+                display: flex;
+                align-items: center;
+            }
+        }
+
+    }
+}
