@@ -13,7 +13,7 @@ import World from '../assests/Privacy - Public Icon.svg'
 
 
 const SocialHub = () => {
-    const SocialHubDetails = [
+    const socialHubDetails = [
         {
             title: "Post your thoghts",
             content: "Feel like sharing somethings? Share your thoughts, idea, or updates with the community.",
@@ -64,7 +64,7 @@ const SocialHub = () => {
                     </span>
                 </div>
                 <div className='social-hub_container'>
-                    {SocialHubDetails.map((eachDtls, index) => {
+                    {socialHubDetails.map((eachDtls, index) => {
                         return (
                             <div className='child-card' style={{ marginTop: '4px', backgroundImage: `${eachDtls.bgImg}` }}>
 
