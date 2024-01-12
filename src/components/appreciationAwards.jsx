@@ -7,7 +7,14 @@ import TopArrow from '../assests/Top-arrow.svg';
 
 const AppreciationAwards = () => {
     return (
-        <div className='card'>
+        <div className='card' style={{padding:"0"}}>
+
+
+          <div className=''>
+
+          </div>
+
+
             <div className='explore-card'>
                 <div className="explore-heading">
 

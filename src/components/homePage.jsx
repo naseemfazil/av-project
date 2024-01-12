@@ -10,6 +10,7 @@ import UpcomingEvents from './upcomingEvents';
 import TopBar from './topBar';
 import SocialHub from './socialHub';
 import AppreciationAwards from './appreciationAwards';
+import ProjectOversight from './projectOversight';
 
 const HomePage = () => {
     return (
@@ -52,6 +53,10 @@ const HomePage = () => {
 
                         <div className='width-99'>
                             <AppreciationAwards />
+                        </div>
+
+                        <div className='width-99'>
+                              <ProjectOversight />
                         </div>
 
                     </div>
