@@ -1,4 +1,11 @@
-.celebrate-occasion-container{
-    display: flex;
-    gap: 1rem;
+.celebrate-occasion-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.occasions_card {
+  min-height: 68vh;
+  border-radius: 10px;
+  box-shadow: 0 0 0 2px rgba(62, 62, 63, 0.1);
+  margin-bottom: 10px;
 }

@@ -1,37 +1,33 @@
 .slider {
+  display: flex;
+  gap: 20px;
+  height: 100%;
+
+  .survey {
+    background-color: grey;
+    padding: 1rem 2rem;
     display: flex;
-    gap: 20px;
-    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("../assests/Sliders/Survey.svg");
+  }
 
+  .slider-child-width {
+    // min-width: 40%;
+    min-height: 25vh;
+  }
 
-    .survey {
-        background-color: grey;
-        padding: 1rem 2rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        background-image: url('../assests/Sliders/Survey.svg');
+  .text-content {
+    // background-color: aqua;
+    font-size: 14px;
+    // min-width: 40%;
+  }
 
-    }
-
-    .slider-child-width {
-        // min-width: 40%;
-        min-height: 25vh;
-    }
-
-    .text-content {
-        // background-color: aqua;
-        font-size: 14px;
-        // min-width: 40%;
-
-    }
-
-    .heading {
-        // font: normal normal 800 40px/55px Open Sans;
-        font-size: 24px;
-        font-weight: bolder;
-        letter-spacing: 0px;
-        color: #000000;
-    }
-
+  .heading {
+    // font: normal normal 800 40px/55px Open Sans;
+    font-size: 24px;
+    font-weight: bolder;
+    letter-spacing: 0px;
+    color: #000000;
+  }
 }
