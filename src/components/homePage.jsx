@@ -11,6 +11,8 @@ import TopBar from './topBar';
 import SocialHub from './socialHub';
 import AppreciationAwards from './appreciationAwards';
 import ProjectOversight from './projectOversight';
+import CelebrateOccasion from './celebrateOccasion';
+import RewardsRecognition from './rewardsRecognition';
 
 const HomePage = () => {
     return (
@@ -56,7 +58,15 @@ const HomePage = () => {
                         </div>
 
                         <div className='width-99'>
-                              <ProjectOversight />
+                            <ProjectOversight />
+                        </div>
+
+                        <div className='width-99'>
+                            <CelebrateOccasion />
+                        </div>
+
+                        <div className='width-99'>
+                            <RewardsRecognition />
                         </div>
 
                     </div>

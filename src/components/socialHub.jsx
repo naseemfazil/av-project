@@ -4,11 +4,11 @@ import '../styles/_common.scss';
 import '../styles/_commonStyles.scss';
 import TopArrow from '../assests/Top-arrow.svg';
 import Forward from '../assests/Forward and Backward Icon.svg';
-import SocialHubBg from '../assests/Social\ Hub\ -\ Post.svg';
-import Question from '../assests/Social Hub - Question.svg';
-import Announment from '../assests/Social Hub- Announcement.svg';
-import Article from '../assests/Social Hub- Article.svg';
-import Blog from '../assests/Social Hub- Blog.svg';
+import SocialHubBg from '../assests/Social_Hub_Post.svg';
+import Question from '../assests/Social_Hub_Question.svg';
+import Announment from '../assests/Social_Hub_Announcement.svg';
+import Article from '../assests/Social_Hub_Article.svg';
+import Blog from '../assests/Social_Hub_Blog.svg';
 import World from '../assests/Privacy - Public Icon.svg'
 
 
@@ -65,8 +65,9 @@ const SocialHub = () => {
                 </div>
                 <div className='social-hub_container'>
                     {socialHubDetails.map((eachDtls, index) => {
+                        console.log(eachDtls.bgImg)
                         return (
-                            <div className='child-card' style={{ marginTop: '4px', backgroundImage: `${eachDtls.bgImg}` }}>
+                            <div className='child-card' style={{ marginTop: '4px', backgroundImage: `url(${eachDtls.bgImg})`,  backgroundSize: 'cover', }}>
 
                                 <div className='child-heading-row'>
                                     <span>
