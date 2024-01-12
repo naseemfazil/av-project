@@ -11,6 +11,7 @@ import TopBar from './topBar';
 import SocialHub from './socialHub';
 import AppreciationAwards from './appreciationAwards';
 import ProjectOversight from './projectOversight';
+import RecentUpdates from './recentUpdates';
 
 const HomePage = () => {
     return (
@@ -29,6 +30,10 @@ const HomePage = () => {
 
                         <div className='card-height' >
                             <Slider />
+                        </div>
+
+                        <div className='width-99'>
+                            <RecentUpdates />
                         </div>
 
                         <div className='width-49' >
@@ -56,7 +61,7 @@ const HomePage = () => {
                         </div>
 
                         <div className='width-99'>
-                              <ProjectOversight />
+                            <ProjectOversight />
                         </div>
 
                     </div>

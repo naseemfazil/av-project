@@ -1,0 +1,43 @@
+.recent-updates {
+    padding: 20px;
+
+
+    .recent-updates-content {
+        display: flex;
+        min-height: 50vh;
+        // background-color: lightblue;
+
+        .first {
+            flex: 1.5;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            .article-content {}
+        }
+
+        .second {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+
+            .second-one {
+                min-height: 25vh;
+            }
+
+            .second-two {
+                display: flex;
+                min-height: 25vh;
+
+                .input {
+                    flex: 1
+                }
+
+                .story {
+                    flex: 1
+                }
+            }
+
+        }
+    }
+}
