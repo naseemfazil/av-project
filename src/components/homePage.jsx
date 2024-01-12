@@ -11,6 +11,7 @@ import TopBar from './topBar';
 import SocialHub from './socialHub';
 import AppreciationAwards from './appreciationAwards';
 import ProjectOversight from './projectOversight';
+import RecentUpdates from './recentUpdates';
 import CelebrateOccasion from './celebrateOccasion';
 import RewardsRecognition from './rewardsRecognition';
 
@@ -31,6 +32,10 @@ const HomePage = () => {
 
                         <div className='card-height' >
                             <Slider />
+                        </div>
+
+                        <div className='width-99'>
+                            <RecentUpdates />
                         </div>
 
                         <div className='width-49' >
