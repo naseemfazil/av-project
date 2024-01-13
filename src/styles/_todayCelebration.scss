@@ -1,4 +1,6 @@
 .today-celebration {
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(62, 62, 63, 0.1);
 
     .heading {}
 
@@ -10,6 +12,7 @@
             display: flex;
             justify-content: space-between;
             padding: 1px 0px 1px 0px;
+
             .content {
                 display: flex;
                 gap: 10px;

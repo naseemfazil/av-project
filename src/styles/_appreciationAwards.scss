@@ -5,6 +5,12 @@
     flex-direction: column;
 }
 
+.appreciation_card {
+    min-height: 43vh;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(62, 62, 63, 0.1);
+}
+
 .explore-heading {
     display: flex;
     justify-content: end;

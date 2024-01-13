@@ -1,4 +1,12 @@
 .expand-cricle {
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(62, 62, 63, 0.1);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    /* For Firefox */
+    scrollbar-color: transparent transparent;
+    /* For Firefox */
+    transition: scrollbar-color 0.5s ease;
 
     .heading {}
 

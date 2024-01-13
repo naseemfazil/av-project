@@ -96,59 +96,45 @@ const SocialHub = () => {
       </div>
 
       {/* Future AI card */}
-      <div className="future-ai_card card">
-        {/* <div>
-                    hi
-                </div> */}
-        <div className="future-ai_container">
-          <div className="feature_ai_profile_container">
-            <div className="feature_ai_profileImage">
-              <img
-                src={"https://randomuser.me/api/portraits/men/20.jpg"}
-                alt="Avatar"
-              />
-            </div>
+      <div className="future-ai_card">
+          <div className="circular-image-container feature_userIcon">
+            <img
+              className="circular-image"
+              src={"https://randomuser.me/api/portraits/men/20.jpg"}
+              alt="Avatar"
+            />
           </div>
+        <div className="future-ai_container">
           <div className="future-ai_header">
             <div className="future-ai_title">
               <p className="title_txt">
                 The Future is AI
-                {/* <span style={{ color: "#ccc" }}>.</span> */}
+                <span style={{ color: "#ccc" }}>.</span>
               </p>
               <img className="future-ai_title_world_image" src={World} alt="" />
             </div>
-
-            <div className="future-round-image_container">
-              <div class="social">
-                <img
-                  className="facebook"
-                  src={"https://randomuser.me/api/portraits/men/20.jpg"}
-                  alt="Avatar"
-                />
-              </div>
-              {/* <div> */}
-              <div class="social">
-                <img
-                  className="facebook"
-                  src={"https://randomuser.me/api/portraits/men/20.jpg"}
-                  alt="Avatar"
-                />
-              </div>
-              <div class="social">
-                <p className="text">+40</p>
-              </div>
-              {/* </div> */}
-              {/* <div
-                  class="future-round-image"
-                  style={{ marginLeft: "-1rem", zIndex: "3" }}
-                >
+            <div className="GrpImage_FollowersTxtDiv">
+              <div className="future-round-image_container">
+                <div class="social firstImage">
                   <img
+                    className="facebook"
                     src={"https://randomuser.me/api/portraits/men/20.jpg"}
                     alt="Avatar"
                   />
-                </div> */}
+                </div>
+                <div class="social secondImage">
+                  <img
+                    className="facebook"
+                    src={"https://randomuser.me/api/portraits/men/20.jpg"}
+                    alt="Avatar"
+                  />
+                </div>
+                <div class="social thirdImage">
+                  <p className="text">+40</p>
+                </div>
+              </div>
+              <p>1.4k Members</p>
             </div>
-            <p>1.4k Members</p>
           </div>
           <p className="future-ai_content">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem

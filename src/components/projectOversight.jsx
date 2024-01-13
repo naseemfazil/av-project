@@ -48,7 +48,7 @@ const ProjectOversight = () => {
     // ];  //project-oversight_container
     return (
         <>
-            <div className='project-oversight_card card'>
+            <div className='project-oversight_card'>
 
                 <div className="heading-row">
                     <span>
