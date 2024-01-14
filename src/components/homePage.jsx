@@ -16,6 +16,7 @@ import CelebrateOccasion from './celebrateOccasion';
 import RewardsRecognition from './rewardsRecognition';
 import VoiceZone from './voiceZone';
 import SurveyHub from './surveyHub';
+import Flikx from './flikx';
 
 const HomePage = () => {
     return (
@@ -86,6 +87,10 @@ const HomePage = () => {
                         <div className='width-99'>
                             <SurveyHub />
                         </div>
+                        <div className='width-99'>
+                            <Flikx></Flikx>
+                        </div>
+
                     </div>
 
                 </div>
