@@ -14,6 +14,8 @@ import ProjectOversight from './projectOversight';
 import RecentUpdates from './recentUpdates';
 import CelebrateOccasion from './celebrateOccasion';
 import RewardsRecognition from './rewardsRecognition';
+import VoiceZone from './voiceZone';
+import SurveyHub from './surveyHub';
 
 const HomePage = () => {
     return (
@@ -43,6 +45,10 @@ const HomePage = () => {
                         </div>
 
                         <div className='width-49'>
+                            <UpcomingEvents />
+                        </div>
+
+                        <div className='width-49'>
                             <TodayCelabration />
                         </div>
 
@@ -50,9 +56,7 @@ const HomePage = () => {
                             <ExpandCircle></ExpandCircle>
                         </div>
 
-                        <div className='width-49'>
-                            <UpcomingEvents />
-                        </div>
+
 
                         <div className='width-99'>
                             <SocialHub />
@@ -74,6 +78,14 @@ const HomePage = () => {
                             <RewardsRecognition />
                         </div>
 
+
+                        <div className='width-99'>
+                            <VoiceZone />
+                        </div>
+
+                        <div className='width-99'>
+                            <SurveyHub />
+                        </div>
                     </div>
 
                 </div>

@@ -1,0 +1,24 @@
+.survey-hub-sub-conent {
+    // width: 34%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.survey-hub-readme {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.survey-hub-sub-card {
+    width: 15vw;
+}
+
+.survey-hub-sub-conent {
+    // background-color: red;
+    margin-top: -1rem;
+    padding-left: 12px;
+    width: 15vw;
+    // background-image: url('../assests/survey_hub/Announcement.svg');
+}

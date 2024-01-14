@@ -51,7 +51,7 @@ const RewardsRecognition = () => {
   return (
     <div className="occasions_card card">
       <div className="heading-row">
-        <span>Celebrate an Occasion</span>
+        <span>Rewards and recognition</span>
         <span>
           <img src={Forward} alt=" " />
         </span>

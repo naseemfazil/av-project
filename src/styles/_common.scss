@@ -21,9 +21,17 @@
 .card {
     background-color: white;
     padding: 15px;
-    min-height: 40vh;
+    // min-height: 40vh;
     max-height: 40vh;
-    overflow-y: auto;
+    // overflow-y: auto;
+    
+
+    // 
+    min-height: 68vh;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(62, 62, 63, 0.1);
+    // margin-bottom: 10px;
+    overflow-y: hidden;
 }
 
 .child-card {
@@ -63,6 +71,7 @@
     font-size: 14px;
     line-height: 2;
     font-weight: 600;
+    margin: 0;
 }
 
 // height: 100%;
