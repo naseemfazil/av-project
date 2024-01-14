@@ -14,6 +14,7 @@ import ProjectOversight from './projectOversight';
 import RecentUpdates from './recentUpdates';
 import CelebrateOccasion from './celebrateOccasion';
 import RewardsRecognition from './rewardsRecognition';
+import Flikx from './flikx';
 
 const HomePage = () => {
     return (
@@ -72,6 +73,10 @@ const HomePage = () => {
 
                         <div className='width-99'>
                             <RewardsRecognition />
+                        </div>
+
+                        <div className='width-99'>
+                            <Flikx></Flikx>
                         </div>
 
                     </div>
