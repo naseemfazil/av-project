@@ -5,7 +5,6 @@
     .recent-updates-content {
         display: flex;
         min-height: 50vh;
-        // background-color: lightblue;
 
         .first {
             flex: 1.5;
@@ -13,7 +12,30 @@
             flex-direction: column;
             justify-content: flex-end;
 
-            .article-content {}
+            .article-content {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                .article-first-row {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .article-head {
+                    font-weight: 600;
+                    font-size: 23px;
+                }
+
+                .article-body {
+                    line-height: 2;
+
+                    .read-more {
+                        text-decoration: underline;
+                        font-weight: bold;
+                    }
+                }
+            }
         }
 
         .second {
@@ -23,6 +45,25 @@
 
             .second-one {
                 min-height: 25vh;
+                background-color: sandybrown;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 0px 15px 15px;
+                gap: 25px;
+
+                .top-arrow {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+
+                .mid-text-content {
+                    display: flex;
+                    flex-wrap: wrap;
+                    line-height: 2
+                }
             }
 
             .second-two {
@@ -30,14 +71,43 @@
                 min-height: 25vh;
 
                 .input {
-                    flex: 1
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    padding: 0px 15px 15px;
+                    align-items: center;
+                    background-color: lightpink;
+
+                    .icon-row {
+                        display: flex;
+                        width: 100%;
+                        justify-content: space-between;
+                    }
+
+                    .mid-text-content {
+                        display: flex;
+                        flex-wrap: wrap;
+                        line-height: 1.5;
+                    }
                 }
 
                 .story {
-                    flex: 1
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 20px;
+                    padding: 0px 15px 15px;
+                    background-color: lightgoldenrodyellow;
+
+                    .icon-row {
+                        width: 100%;
+                        display: flex;
+                        justify-content: flex-end;
+                    }
                 }
             }
-
         }
     }
 }
