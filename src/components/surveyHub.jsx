@@ -8,6 +8,8 @@ import Survey1 from '../assests/survey_hub/Survey_1.svg';
 import Survey2 from '../assests/survey_hub/Survey_2.svg';
 import Survey3 from '../assests/survey_hub/Survey_3.svg';
 import Survey4 from '../assests/survey_hub/Survey_4.svg';
+import Aviation from '../assests/survey_hub/Aviation.png';
+import Feedback from '../assests/survey_hub/Feedback.png';
 import '../styles/_surveyHub.scss';
 
 
@@ -24,13 +26,13 @@ const SurveyHub = () => {
         {
             title: "Aviation and Mechanism",
             content: "Aviation and Mechanism kind of questions and how to improve it. Then Rate your",
-            bgImg: AirLine,
+            bgImg: Aviation,
             bgColur: Survey1
         },
         {
             title: "Airline and Aviation",
             content: "This survey is about the airline mechanism procedure and aviation fuel procedure. This will",
-            bgImg: AirLine,
+            bgImg: Feedback,
             bgColur: Survey2
         },
         // {
@@ -42,9 +44,9 @@ const SurveyHub = () => {
     ]
     return (
 
-        <div className='card'>
+        <div className='card survey-hub-card'>
             <div className="heading-row">
-                <span>Voice Zone</span>
+                <span>Survey Hub</span>
                 <span>
                     <img src={Forward} alt=" " />
                 </span>

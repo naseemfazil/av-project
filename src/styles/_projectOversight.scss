@@ -7,9 +7,18 @@
     min-height: 60vh;
 }
 
+.project-create-card {
+    background-image: url('../assests//project-oversight/Create-Project.svg');
+}
+
+
+.project-second-card {
+    display: flex;
+    gap: 1rem;
+}
 
 .project-oversight_inner-card {
-    background-image: url('../assests/Project\ 2.svg');
+    // background-image: url('../assests/Project\ 2.svg');
     margin-top: 4px;
 }
 
@@ -25,15 +34,21 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .red-progress {
     font-size: 14px;
-    color: #0B9262;
+    color: red;
     font-weight: bold;
 }
 
 .in-progress {
     @extend .red-progress;
     color: #F89706;
+}
+
+.green-progress {
+    @extend .red-progress;
+    color: #0B9262;
 }
