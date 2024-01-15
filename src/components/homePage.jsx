@@ -3,7 +3,7 @@ import '../styles/_homePage.scss';
 import '../styles/_common.scss';
 import SideBar from './sideBar';
 import TodayCelabration from './todayCelebration';
-import Slider from './slider';
+import Sliders from './slider';
 import Announcement from './announcement';
 import ExpandCircle from './expandCircle';
 import UpcomingEvents from './upcomingEvents';
@@ -34,7 +34,7 @@ const HomePage = () => {
                     <div className='content'>
 
                         <div className='card-height' >
-                            <Slider />
+                            <Sliders />
                         </div>
 
                         <div className='width-99'>
