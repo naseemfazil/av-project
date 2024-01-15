@@ -2,10 +2,36 @@ import React from 'react';
 import '../styles/_common.scss';
 import '../styles/_commonStyles.scss';
 import '../styles/_flikx.scss';
+import China from '../assests/flikx/china.jpg';
+import Night from '../assests/flikx/night.avif';
+import Road from '../assests/flikx/road.avif';
 
 const Flikx = () => {
 
     const imageUrl = 'https://randomuser.me/api/portraits/men/20.jpg';
+
+    const Flikx = [
+        {
+            name: 'Blake',
+            bgImg: China,
+            profile: ''
+        },
+
+        {
+            name: 'Fazil',
+            bgImg: Night,
+            profile: ''
+        },
+
+        {
+            name: 'Hari',
+            bgImg: Road,
+            profile: ''
+        },
+
+
+
+    ];
 
     return (
         <div className='flikx card' >
@@ -21,18 +47,24 @@ const Flikx = () => {
 
             <div className="flikx-content">
 
-                <div className='flikx-child-card each-card ' >
-                    <div className='name-content'>
+                {Flikx.map((eachDtls, index) => {
+                    return (
+                        <div className='flikx-child-card each-card ' style={{ backgroundImage: `url(${eachDtls.bgImg})`, }} >
+                            <div className='name-content'>
 
-                        <span>
-                            <img className='person-image' height="40" width="40" src={imageUrl} alt="Avatar"></img>
-                        </span>
+                                <span>
+                                    <img className='person-image' height="30" width="30" src={imageUrl} alt="Avatar"></img>
+                                </span>
 
-                        <span className='person-label'>
-                            Blake
-                        </span>
-                    </div>
-                </div>
+                                <span className='person-label'>
+                                    {eachDtls.name}
+                                </span>
+                            </div>
+                        </div>
+                    )
+                })}
+
+
             </div>
 
         </div>

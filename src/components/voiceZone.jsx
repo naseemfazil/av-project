@@ -7,6 +7,7 @@ import Complaint from '../assests/voice_zone/Complaint.svg';
 import Frustration from '../assests/voice_zone/Frustration.svg';
 import Idea from '../assests/voice_zone/Idea.svg';
 import Suggestion from '../assests/voice_zone/Suggestion.svg';
+import '../styles/_voiceZone.scss';
 
 
 
@@ -48,7 +49,7 @@ const VoiceZone = () => {
 
     ];
     return (
-        <div className='card'>
+        <div className='card voice-zone-card'>
             <div className="heading-row">
                 <span>Voice Zone</span>
                 <span>
