@@ -55,4 +55,41 @@
   //   flex-direction: column;
   // }
 
+  .kudos-received {
+    display: flex;
+    flex-direction: column;
+    background-color: #EEFCE4;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 45vw;
+  }
+
+  .hashtags {
+    color: #3A36CE;
+  }
+
+  .kr-names {
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .kr-content {
+    line-height: 2;
+    padding: 0px 20px;
+  }
+
+  .outstanding-employee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 45vw;
+  }
+
+  .font-weight-bold {
+    font-weight: 600;
+  }
+
 }
