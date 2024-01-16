@@ -110,33 +110,79 @@ const Sliders = () => {
                         quod doloremque? Numquam.
                     </p>
                 </div>
+                
                 <div className="explore-btn_content">
                     <button className="primary_btn">Let's explore</button>
                 </div>
             </div> */}
 
+            <div className='kudos-received'>
+                <div>
+                    icons
+                </div>
+                <div className='kr-names'>
+                    Alfie Solomon(You) and 40 others
+                </div>
+                <div>
+                    Received Kudos from 
+                    <span className='font-weight-bold'>
+                        Michael Mayers
+                    </span>
+                </div>
+                <div className='kr-content'>
+                    Big congratulations for their outstanding dedication and hard work! 🏆Your contributions and positive attitude make our team shine.
+                </div>
+                <div className='hashtags'>
+                    #SpreadJoy #Kudos
+                </div>
+            </div>
+
+            <div className='outstanding-employee'>
+                <div>
+                    icons
+                </div>
+                <div>
+                    Outstanding Employees Award
+                </div>
+                <div className='kr-names'>
+                    Alfie Solomon(You)
+                </div>
+                <div>
+                    get Award from 
+                    <span className='font-weight-bold'>
+                        Michael Mayers
+                    </span>
+
+                </div>
+                <div className='kr-content'>
+                    Celebrating for their unwavering commitment, exceptional teamwork, and exemplary performance.🌟 🏆🙌
+                </div>
+                <div className='hashtags'>
+                    #Awards #Employeeawards
+                </div>
+            </div>
 
             {sliderDetails.map((eachDtls, index) => {
-                    return (
-                        <div className='survey slider-child-width' style={{ backgroundImage: `url(${eachDtls.bgImg})` }}>
+                return (
+                    <div className='survey slider-child-width' style={{ backgroundImage: `url(${eachDtls.bgImg})` }}>
 
-                            <div className='heading'>
-                                <h4>{eachDtls.title}</h4>
-                            </div>
-                            <div className='survey-content'>
-                                <div className='text-content'>
-                                    {eachDtls.content}
-                                </div>
-                                <img src='' alt='' />
-                            </div>
-                            <div className='button'>
-                                <button className='primary_btn'>
-                                    {eachDtls.btnName}
-                                </button>
-                            </div>
+                        <div className='heading'>
+                            <h4>{eachDtls.title}</h4>
                         </div>
-                    )
-                })}
+                        <div className='survey-content'>
+                            <div className='text-content'>
+                                {eachDtls.content}
+                            </div>
+                            <img src='' alt='' />
+                        </div>
+                        <div className='button'>
+                            <button className='primary_btn'>
+                                {eachDtls.btnName}
+                            </button>
+                        </div>
+                    </div>
+                )
+            })}
 
 
 
