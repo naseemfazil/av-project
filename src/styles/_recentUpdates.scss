@@ -1,6 +1,11 @@
 .recent-updates {
     // padding: 20px;
 
+    .ru-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 
     .recent-updates-content {
         display: flex;

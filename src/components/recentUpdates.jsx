@@ -20,7 +20,7 @@ const RecentUpdates = () => {
                 </span>
             </div>
 
-            <div>
+            <div className='ru-container'>
                 <div className='recent-updates-content'>
                     <div className="first">
 
