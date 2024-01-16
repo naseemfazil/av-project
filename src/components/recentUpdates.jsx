@@ -4,6 +4,8 @@ import '../styles/_commonStyles.scss';
 import '../styles/_recentUpdates.scss';
 import Forward from '../assests/Forward and Backward Icon.svg';
 import TopArrow from '../assests/Top-arrow.svg';
+import AwardsIcon from '../assests/Appreciation-and-Awards/awards-icon.svg';
+import Eliipse from '../assests/recent-updates/Ellipse 1.png';
 
 const RecentUpdates = () => {
 
@@ -24,12 +26,8 @@ const RecentUpdates = () => {
                     <div className='article-content'>
                         <div className='article-first-row'>
                             <span>
-                                <span>
-                                    Article
-                                </span>
-                                <span>
-                                    Thu, 28th Dec
-                                </span>
+                                <button className="kudos-btn"><span><img src={AwardsIcon} alt="" width={12} /></span> Awards </button>
+                                <span className="kudos-btn-sub">Fri,05 Jan</span>
                             </span>
                             <span>
                                 <img src={TopArrow} alt=' ' />
@@ -59,14 +57,33 @@ const RecentUpdates = () => {
                             </span>
                         </span>
                         <span>
-                            circle icons
+                            <div className=" second-one-circle-icon">
+                                <div class="second-one-round-image" style={{ zIndex: "1" }}>
+                                    <img
+                                        src={"https://randomuser.me/api/portraits/men/20.jpg"}
+                                        alt="Avatar"
+                                    />
+                                </div>
+                                <div class="second-one-round-image" style={{ marginLeft: "-1rem", zIndex: "3" }}>
+                                    <img
+                                        src={"https://randomuser.me/api/portraits/men/20.jpg"}
+                                        alt="Avatar"
+                                    />
+                                </div>
+                                <div
+                                    className="second-one-round-text"
+                                // style={{ marginLeft: "-1rem", zIndex: "2", width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                                >
+                                    <p >+40</p>
+                                </div>
+                            </div>
                         </span>
 
                         <span className='mid-text-content'>
                             Stay connected with the updates from your community members
                         </span>
 
-                        <span>
+                        <span className='font-bold'>
                             50+ Activites
                         </span>
                     </div>
@@ -74,22 +91,26 @@ const RecentUpdates = () => {
 
                     <div className="second-two">
 
-                        <div className="input">
+                        <div className="story-qustions">
                             <span className='icon-row'>
                                 <span>
-                                    icon1
+                                    {/* icon1 */}
                                 </span>
 
-                                <span>
+                                <span style={{ paddingTop: '0.3rem' }}>
                                     <img src={TopArrow} alt=' ' />
                                 </span>
                             </span>
 
                             <span>
-                                profile
+                                <img src={"https://randomuser.me/api/portraits/men/20.jpg"}
+                                    // style={{ width: '45px', height: "45px", borderRadius: '50%', overflow: 'hidden', border: '5px solid white' }}
+                                    alt="" 
+                                    className='story-qustions-img'
+                                    />
                             </span>
 
-                            <span>
+                            <span className='font-bold'>
                                 Andrew
                             </span>
 
@@ -97,7 +118,7 @@ const RecentUpdates = () => {
                                 Why do we use auto layout in figma and XD ?
                             </span>
                             <span>
-                                Type your answer
+                                <input type='text' className='feedback-input' placeholder='Type Your answer' />
                             </span>
                         </div>
 
@@ -107,15 +128,14 @@ const RecentUpdates = () => {
                                     <img src={TopArrow} alt=' ' />
                                 </span>
                             </span>
-                            <span>
-                                profile
+                            <span className='story-img-container'>
+                                <img src={Eliipse} alt="" />
                             </span>
-                            <span>
+                            <span className='font-medium'>
                                 Create your story
                             </span>
-                            <span>
-                                Create story
-                            </span>
+                            <button className='primary_btn'>Create story</button>
+                                
                         </div>
                     </div>
                 </div>
