@@ -114,3 +114,86 @@
         }
     }
 }
+
+.second-row {
+    display: flex;
+    min-height: 40vh;
+    gap: 20px;
+
+    .quick-poll {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background-color: #2D84F6;
+        color: white;
+        gap: 20px;
+
+        .qp-heading {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .qp-question-label {
+            font-weight: 600;
+            line-height: 2;
+        }
+
+        .qp-options {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .qr-progress-bar {
+            height: 1vh;
+            background-color: white;
+            border-radius: 15px;
+            margin-top: 5px;
+        }
+
+        .qp-sec-left {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .qp-navigation {
+        background-color: #EAF2FD;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pc-game {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: flex-end;
+        background-color: #EB55ED;
+        padding: 20px;
+
+        .game-child-content {
+            opacity: 0.75;
+        }
+
+        .post-date {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .game-heading {
+            font-size: 25px;
+            font-weight: 600;
+        }
+
+        .game-content {
+            line-height: 2;
+        }
+
+        .likes-row {
+            font-size: 14px;
+        }
+    }
+}
