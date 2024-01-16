@@ -3,7 +3,7 @@ import '../styles/_expandCircle.scss';
 import '../styles/_common.scss';
 import '../styles/_commonStyles.scss';
 import TopArrow from '../assests/Top-arrow.svg';
-import Birthday from '../assests/Birthday.svg';
+import Expand from '../assests/Expand your circle icon.svg';
 
 const ExpandCircle = () => {
 
@@ -11,41 +11,41 @@ const ExpandCircle = () => {
         {
 
             name: 'Benford Black',
-            icon: Birthday,
-            subContent: "  Celebrating birthday",
+            icon: Expand,
+            subContent: "  Human Resource Manager",
             btnTxt: "Wish",
             profile: "https://randomuser.me/api/portraits/men/20.jpg"
         },
 
         {
 
-            name: 'Benford Black',
-            icon: Birthday,
-            subContent: "  Celebrating birthday",
+            name: 'Jemses ben',
+            icon: Expand,
+            subContent: "  Visual Designer",
+            btnTxt: "Wish",
+            profile: "https://randomuser.me/api/portraits/men/20.jpg"
+        },
+        {
+
+            name: 'Bruce wanes',
+            icon: Expand,
+            subContent: "  Financial Manager",
+            btnTxt: "Wish",
+            profile: "https://randomuser.me/api/portraits/men/20.jpg"
+        },
+        {
+
+            name: 'Alfred sigh',
+            icon: Expand,
+            subContent: "  Chief Product Engineer",
             btnTxt: "Wish",
             profile: "https://randomuser.me/api/portraits/men/20.jpg"
         },
         {
 
             name: 'Benford Black',
-            icon: Birthday,
-            subContent: "  Celebrating birthday",
-            btnTxt: "Wish",
-            profile: "https://randomuser.me/api/portraits/men/20.jpg"
-        },
-        {
-
-            name: 'Benford Black',
-            icon: Birthday,
-            subContent: "  Celebrating birthday",
-            btnTxt: "Wish",
-            profile: "https://randomuser.me/api/portraits/men/20.jpg"
-        },
-        {
-
-            name: 'Benford Black',
-            icon: Birthday,
-            subContent: "  Celebrating birthday",
+            icon: Expand,
+            subContent: "  Marketing Management",
             btnTxt: "Wish",
             profile: "https://randomuser.me/api/portraits/men/20.jpg"
         }

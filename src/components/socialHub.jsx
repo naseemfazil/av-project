@@ -23,7 +23,7 @@ const SocialHub = () => {
     },
 
     {
-      title: "Having a buring questions?",
+      title: "Having  questions?",
       content:
         "Having a questions in mind? Ask the community& get answers from fellow members!",
       btnTxt: "Ask Questions",

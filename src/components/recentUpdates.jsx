@@ -154,7 +154,7 @@ const RecentUpdates = () => {
                                     Quick poll
                                 </span>
                                 <span>
-                                    icon
+                                    <img src={TopArrow} alt=' ' style={{ color: 'white' }} />
                                 </span>
                             </div>
 
@@ -229,6 +229,8 @@ const RecentUpdates = () => {
                             </div>
                         </div>
                     </div>
+
+
                 </div>
             </div>
         </div>

@@ -43,11 +43,20 @@ const AppreciationAwards = () => {
 
         <div class="awards">
           <div className="awards-mock-img-container">
-            <div className="awards-mock-img-content">
-              <p>Outstanding Employee Award</p>
-              <p>Edrain Walter</p>
+
+            <div className="awards-top-icons">
+              <button className="btn-awards">1000 Points</button>
+            </div>
+
+            <div className="awards-content-height">
+
+              <div className="awards-mock-img-content">
+                <span className="amic-first">Outstanding Employee Award</span>
+                <span className="amic-second">Edrain Walter and 40 others</span>
+              </div>
             </div>
           </div>
+
           <div className="awards-sub-container">
             <div className="awards-sub-header">
               <div>

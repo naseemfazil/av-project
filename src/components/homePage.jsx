@@ -18,6 +18,7 @@ import VoiceZone from './voiceZone';
 import SurveyHub from './surveyHub';
 import Flikx from './flikx';
 import GiftBox from './giftBox';
+import Youtube from './youtube';
 
 const HomePage = () => {
     return (
@@ -36,6 +37,10 @@ const HomePage = () => {
 
                         <div className='card-height' >
                             <Sliders />
+                        </div>
+
+                        <div className='width-99'>
+                            <Youtube />
                         </div>
 
                         <div className='width-99'>

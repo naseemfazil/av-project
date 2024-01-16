@@ -49,7 +49,7 @@ const RewardsRecognition = () => {
     },
   ];
   return (
-    <div className="occasions_card card">
+    <div className="occasions_card card" style={{minHeight: '61vh'}}>
       <div className="heading-row">
         <span>Rewards and recognition</span>
         <span>

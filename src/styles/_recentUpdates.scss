@@ -273,11 +273,15 @@
         flex-direction: column;
         gap: 20px;
         justify-content: flex-end;
-        background-color: #EB55ED;
+        // background-color: #EB55ED;
+        background-image: url('../assests//recent-updates/game.avif');
         padding: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
 
         .game-child-content {
             opacity: 0.75;
+            background-color: white;
         }
 
         .post-date {

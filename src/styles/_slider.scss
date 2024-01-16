@@ -62,11 +62,13 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    width: 45vw;
+    width: 36vw;
+    padding: 10px;
   }
 
   .hashtags {
     color: #3A36CE;
+    font-weight: 600;
   }
 
   .kr-names {
@@ -77,6 +79,7 @@
   .kr-content {
     line-height: 2;
     padding: 0px 20px;
+    text-align: center;
   }
 
   .outstanding-employee {
@@ -86,6 +89,7 @@
     justify-content: center;
     gap: 20px;
     width: 45vw;
+    background-image: url('../assests//Sliders/Micheleneous\ 2.svg');
   }
 
   .font-weight-bold {

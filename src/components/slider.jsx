@@ -118,18 +118,37 @@ const Sliders = () => {
 
             <div className='kudos-received'>
                 <div>
-                    icons
+                    <div className="round-image_container">
+                        <div class="round-image" style={{ zIndex: "1" }}>
+                            <img
+                                src={"https://randomuser.me/api/portraits/men/20.jpg"}
+                                alt="Avatar"
+                            />
+                        </div>
+                        <div class="round-image" style={{ marginLeft: "-1rem", zIndex: "3" }}>
+                            <img
+                                src={"https://randomuser.me/api/portraits/men/20.jpg"}
+                                alt="Avatar"
+                            />
+                        </div>
+                        <div
+                            className="round-text"
+                            style={{ marginLeft: "-1rem", zIndex: "2" }}
+                        >
+                            <p>+40</p>
+                        </div>
+                    </div>
                 </div>
                 <div className='kr-names'>
-                    Alfie Solomon(You) and 40 others
+                    Alfie Solomon(You) <span style={{fontWeight:'400'}}>and</span> 40 others
                 </div>
-                <div>
-                    Received Kudos from 
-                    <span className='font-weight-bold'>
-                        Michael Mayers
+                <div className='font-medium'>
+                    Received Kudos from
+                     <span className='font-bold'>
+                         Michael Mayers
                     </span>
                 </div>
-                <div className='kr-content'>
+                <div className='kr-content font-medium'>
                     Big congratulations for their outstanding dedication and hard work! 🏆Your contributions and positive attitude make our team shine.
                 </div>
                 <div className='hashtags'>
@@ -137,7 +156,7 @@ const Sliders = () => {
                 </div>
             </div>
 
-            <div className='outstanding-employee'>
+            {/* <div className='outstanding-employee'>
                 <div>
                     icons
                 </div>
@@ -148,7 +167,7 @@ const Sliders = () => {
                     Alfie Solomon(You)
                 </div>
                 <div>
-                    get Award from 
+                    get Award from
                     <span className='font-weight-bold'>
                         Michael Mayers
                     </span>
@@ -160,7 +179,7 @@ const Sliders = () => {
                 <div className='hashtags'>
                     #Awards #Employeeawards
                 </div>
-            </div>
+            </div> */}
 
             {sliderDetails.map((eachDtls, index) => {
                 return (

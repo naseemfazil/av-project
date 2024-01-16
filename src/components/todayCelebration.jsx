@@ -4,6 +4,8 @@ import '../styles/_common.scss';
 import '../styles/_commonStyles.scss';
 import TopArrow from '../assests/Top-arrow.svg';
 import Birthday from '../assests/Birthday.svg';
+import Position from '../assests/New Position.svg';
+import Certification  from'../assests/New Certification.svg';
 
 const TodayCelabration = () => {
 
@@ -20,16 +22,16 @@ const TodayCelabration = () => {
         {
 
             name: 'Fazil',
-            icon: Birthday,
-            subContent: "  Celebrating birthday",
+            icon: Position,
+            subContent: "  Celebrating New Position",
             btnTxt: "Wish",
             profile: "https://randomuser.me/api/portraits/men/20.jpg"
         },
         {
 
             name: 'Av',
-            icon: Birthday,
-            subContent: "  Celebrating birthday",
+            icon: Certification,
+            subContent: "  Celebrating New Certification",
             btnTxt: "Wish",
             profile: "https://randomuser.me/api/portraits/men/20.jpg"
         },
