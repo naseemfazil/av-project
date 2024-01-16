@@ -10,6 +10,7 @@ import Announment from "../assests/Social_Hub_Announcement.svg";
 import Article from "../assests/Social_Hub_Article.svg";
 import Blog from "../assests/Social_Hub_Blog.svg";
 import World from "../assests/Privacy - Public Icon.svg";
+import FutureProfile from '../assests/future-ai-profile.jpg';
 
 const SocialHub = () => {
   const socialHubDetails = [
@@ -62,7 +63,6 @@ const SocialHub = () => {
         </div>
         <div className="social-hub_container">
           {socialHubDetails.map((eachDtls, index) => {
-            console.log(eachDtls.bgImg);
             return (
               <div
                 className="child-card"
@@ -97,13 +97,14 @@ const SocialHub = () => {
 
       {/* Future AI card */}
       <div className="future-ai_card">
-          <div className="circular-image-container feature_userIcon">
-            <img
-              className="circular-image"
-              src={"https://randomuser.me/api/portraits/men/20.jpg"}
-              alt="Avatar"
-            />
-          </div>
+        <div className="circular-image-container feature_userIcon">
+        {/* <p>icon</p> */}
+          <img
+            className="circular-image"
+            src={FutureProfile}
+            alt="Avatar"
+          />
+        </div>
         <div className="future-ai_container">
           <div className="future-ai_header">
             <div className="future-ai_title">
@@ -130,7 +131,11 @@ const SocialHub = () => {
                   />
                 </div>
                 <div class="social thirdImage">
-                  <p className="text">+40</p>
+                  <img
+                    className="facebook"
+                    src={"https://randomuser.me/api/portraits/men/20.jpg"}
+                    alt="Avatar"
+                  />
                 </div>
               </div>
               <p>1.4k Members</p>

@@ -99,3 +99,106 @@
     font-size: 1em;
     color: #555;
 }
+
+
+.awards-container {
+
+    display: flex;
+    gap: 1rem;
+}
+.awards {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    // width: 300px;
+    // width: 30vw;
+    // height: 40vh;
+  }
+  
+  .awards-bg-img-container {
+     background-image: url('../assests/Appreciation-and-Awards/kudos.svg');
+     width: 30vw;
+     height: 40vh;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 50%;
+  }
+
+  .awards-mock-img-container{
+    background-image: url('../assests/Appreciation-and-Awards/awards-mock.svg');
+    width: 30vw;
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10%;
+  }
+
+  .awards-bg-img-content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .awards-bg-img-content p{
+    margin: 0;
+  }
+.awards-sub-container{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 25vh;
+    padding: 10px;
+}
+
+.kudos-btn{
+    border: none;
+    font-size: 12px;
+    padding: 5px 12px;
+    border-radius: 16px;
+    background-color: #3A36CE;
+    color: #fff;
+}
+
+.kudos-btn-sub{
+    font-size: 12px;
+    margin-left: 7px;
+}
+.awards-sub-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.appreciared-name{
+    font-size: 12px;
+}
+
+.awards-sub-greeting {
+    font-size: 12px;
+}
+.hashtag{
+    color: #3A36CE;
+    font-weight: bold;
+}
+
+//   .awards img {
+//     width: 100%;
+//     height: auto;
+//     border-bottom: 1px solid #ccc;
+//   }
+  
+//   .awards-content {
+//     padding: 20px;
+//   }
+  
+//   .awards-content h2 {
+//     margin-top: 0;
+//   }
+  
+//   .awards-content p {
+//     margin-bottom: 0;
+//   }
