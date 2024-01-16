@@ -17,6 +17,7 @@ import RewardsRecognition from './rewardsRecognition';
 import VoiceZone from './voiceZone';
 import SurveyHub from './surveyHub';
 import Flikx from './flikx';
+import GiftBox from './giftBox';
 
 const HomePage = () => {
     return (
@@ -57,7 +58,9 @@ const HomePage = () => {
                             <ExpandCircle></ExpandCircle>
                         </div>
 
-
+                        <div className='width-99'>
+                            <GiftBox />
+                        </div>
 
                         <div className='width-99'>
                             <SocialHub />

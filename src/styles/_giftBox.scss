@@ -1,0 +1,26 @@
+.gift-box-card {
+    background-image: url('../assests/Gift.svg');
+}
+
+.gift-box-container {
+
+    display: flex;
+
+    .gb-one {
+        flex: 1;
+
+        .gb-image {
+            min-height: 30vh;
+        }
+
+        .btn-claim {
+            display: flex;
+            justify-content: center;
+        }
+
+    }
+
+    .gb-two {
+        flex: 1;
+    }
+}
