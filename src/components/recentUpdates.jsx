@@ -19,7 +19,7 @@ const RecentUpdates = () => {
                     </span>
                 </div>
 
-                <div className='recent-updates-content'>
+                {/* <div className='recent-updates-content'>
                     <div className="first">
 
                         <div className='article-content'>
@@ -120,7 +120,7 @@ const RecentUpdates = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
 
             <div className='second-row'>
