@@ -61,9 +61,9 @@
     background-color: #EEFCE4;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    width: 36vw;
-    padding: 10px;
+    width: 42vw;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(62, 62, 63, 0.1);
   }
 
   .hashtags {
@@ -96,4 +96,88 @@
     font-weight: 600;
   }
 
+}
+
+.text-content {
+  font-size: 14px;
+}
+
+.row_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  min-height: 45vh;
+}
+
+.slide_image {
+  min-height: 25vh;
+  width: 35vw;
+}
+
+.indicators_button {
+  position: absolute;
+  bottom: -25px;
+}
+
+.caroulse_inner_style {
+  position: relative;
+  min-height: 50vh;
+}
+
+.bgColor {
+  width: 80vw;
+}
+
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: gray;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity .6s ease;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+  background-color: #3A36CE;
+}
+
+.carosule-specific-item {
+  padding-top: 20px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 40vw;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 2px rgba(62, 62, 63, 0.1);
+}
+
+.carosule-specific-first-item {
+  padding-top: 20px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 42vw;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 2px rgba(62, 62, 63, 0.1);
 }
