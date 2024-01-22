@@ -6,7 +6,7 @@ import Message from '../assests/Message.svg';
 import Notifications from '../assests/Notification.svg';
 import People from '../assests/Group 350.png';
 import  DownArrow from '../assests/Down Arrow.svg'
-
+import Img from '../components/img';
 import Search from '../assests/Search.svg';
 // import AnimationRotation from '../assests/points-rotation/animation_lmx4zxty_small.gif';
 // import Lottie from 'react-lottie';
@@ -33,7 +33,7 @@ const TopBar = () => {
         <div className='topBar-container'>
             <div className="search-container">
                 {/* <i className="search-icon fas fa-search"></i> */}
-                <img src={Search} alt="" className="search-icon fas fa-search" width={20} />
+                <Img src={Search} alt="" className="search-icon fas fa-search" width={20} />
 
                 <input type="text" class="search-box" placeholder="Search..." />
             </div>
@@ -51,31 +51,31 @@ const TopBar = () => {
             <div className='topBar-menu-container'>
                 <div className='topBar-menu'>
                     <div className='topBar-menu_icon'>
-                        <img src={Flix} alt="" />
+                        <Img src={Flix} alt="" />
                     </div>
                     <p>Flikx</p>
                 </div>
                 <div className='topBar-menu'>
                     <div className='topBar-menu_icon'>
-                        <img src={Create} alt="" />
+                        <Img src={Create} alt="" />
                     </div>
                     <p>Create</p>
                 </div>
                 <div className='topBar-menu'>
                     <div className='topBar-menu_icon'>
-                        <img src={Message} alt="" />
+                        <Img src={Message} alt="" />
                     </div>
                     <p>Message</p>
                 </div>
                 <div className='topBar-menu'>
                     <div className='topBar-menu_icon'>
-                        <img src={Notifications} alt="" />
+                        <Img src={Notifications} alt="" />
                     </div>
                     <p>Notification</p>
                 </div>
                 <div className='topBar-menu' >
                     <div className='topBar-menu_icon'>
-                        <img src={People} alt="" />
+                        <Img src={People} alt="" />
                     </div>
                     <p style={{display:'flex',alignItems:"center"}}>You </p>
                 </div>

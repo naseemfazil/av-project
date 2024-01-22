@@ -9,6 +9,7 @@ import Groups from "../assests/Groups.svg";
 import People from "../assests/People.svg";
 import ExploreMore from "../assests/Explore More.svg";
 import AdminConfig from "../assests/Admin Config.svg";
+import Img from '../components/img';
 
 import AppIcon from "../assests/Group 139.svg";
 import leftIcon from "../assests/chevronLeft.svg";
@@ -17,34 +18,34 @@ const SideBar = () => {
   return (
     <div className="sidebar">
       <div className="sidebar-header">
-        <img src={AppIcon} alt="" />
+        <Img src={AppIcon} alt="" />
         <div className="sidebar-toggle">
-          <img src={leftIcon} alt="" />
+          <Img src={leftIcon} alt="" />
         </div>
       </div>
       <div className="side-container">
         <ul>
           <li>
             <span>
-              <img src={Home} alt="" />
+              <Img src={Home} alt="" />
             </span>{" "}
             <p>Home</p>
           </li>
           <li>
             <span>
-              <img src={SocialHub} alt="" />
+              <Img src={SocialHub} alt="" />
             </span>{" "}
             <p>Social Hub</p>
           </li>
           <li>
             <span>
-              <img src={ProjectOversight} alt="" />
+              <Img src={ProjectOversight} alt="" />
             </span>{" "}
             <p>Project Oversight</p>
           </li>
           <li>
             <span>
-              <img src={SurveyHub} alt="" />
+              <Img src={SurveyHub} alt="" />
             </span>{" "}
             <p>Survey Hub</p>
           </li>
@@ -54,25 +55,25 @@ const SideBar = () => {
         <ul>
           <li>
             <span>
-              <img src={Groups} alt="" />
+              <Img src={Groups} alt="" />
             </span>{" "}
             <p>Groups</p>
           </li>
           <li>
             <span>
-              <img src={People} alt="" />
+              <Img src={People} alt="" />
             </span>{" "}
             <p>People</p>
           </li>
           <li>
             <span>
-              <img src={ExploreMore} alt="" />
+              <Img src={ExploreMore} alt="" />
             </span>{" "}
             <p>Explore More</p>
           </li>
           <li>
             <span>
-              <img src={AdminConfig} alt="" />
+              <Img src={AdminConfig} alt="" />
             </span>{" "}
             <p>Admin Config</p>
           </li>

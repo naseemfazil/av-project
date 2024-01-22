@@ -11,6 +11,7 @@ import Article from "../assests/Social_Hub_Article.svg";
 import Blog from "../assests/Social_Hub_Blog.svg";
 import World from "../assests/Privacy - Public Icon.svg";
 import FutureProfile from '../assests/future-ai-profile.jpg';
+import Img from '../components/img';
 
 const SocialHub = () => {
   const socialHubDetails = [
@@ -58,7 +59,7 @@ const SocialHub = () => {
         <div className="heading-row">
           <span>Social Hub</span>
           <span>
-            <img src={Forward} alt=" " />
+            <Img src={Forward} alt=" " />
           </span>
         </div>
         <div className="social-hub_container">
@@ -74,7 +75,7 @@ const SocialHub = () => {
               >
                 <div className="child-heading-row">
                   <span>
-                    <img src={TopArrow} alt="" />
+                    <Img src={TopArrow} alt="" />
                   </span>
                 </div>
 
@@ -99,7 +100,7 @@ const SocialHub = () => {
       <div className="future-ai_card">
         <div className="circular-image-container feature_userIcon">
         {/* <p>icon</p> */}
-          <img
+          <Img
             className="circular-image"
             src={FutureProfile}
             alt="Avatar"
@@ -112,26 +113,26 @@ const SocialHub = () => {
                 The Future is AI
                 <span style={{ color: "#ccc" }}>.</span>
               </p>
-              <img className="future-ai_title_world_image" src={World} alt="" />
+              <Img className="future-ai_title_world_image" src={World} alt="" />
             </div>
             <div className="GrpImage_FollowersTxtDiv">
               <div className="future-round-image_container">
                 <div class="social firstImage">
-                  <img
+                  <Img
                     className="facebook"
                     src={"https://randomuser.me/api/portraits/men/20.jpg"}
                     alt="Avatar"
                   />
                 </div>
                 <div class="social secondImage">
-                  <img
+                  <Img
                     className="facebook"
                     src={"https://randomuser.me/api/portraits/men/20.jpg"}
                     alt="Avatar"
                   />
                 </div>
                 <div class="social thirdImage">
-                  <img
+                  <Img
                     className="facebook"
                     src={"https://randomuser.me/api/portraits/men/20.jpg"}
                     alt="Avatar"

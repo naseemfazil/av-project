@@ -9,9 +9,10 @@ import rewards from "../assests/Sliders/Rewards.svg";
 import awards from "../assests/Sliders/Awards.svg";
 import voiceZone from "../assests/Sliders/Voice-zone.svg";
 import celebrations from "../assests/Sliders/Celebrations.svg";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+import Img from '../components/img';
 
 const Sliders = () => {
   const sliderDetails = [
@@ -94,7 +95,7 @@ const Sliders = () => {
                 <div>
                   <div className="round-image_container">
                     <div class="round-image" style={{ zIndex: "1" }}>
-                      <img
+                      <Img
                         src={"https://randomuser.me/api/portraits/men/20.jpg"}
                         alt="Avatar"
                       />
@@ -103,7 +104,7 @@ const Sliders = () => {
                       class="round-image"
                       style={{ marginLeft: "-1rem", zIndex: "3" }}
                     >
-                      <img
+                      <Img
                         src={"https://randomuser.me/api/portraits/men/20.jpg"}
                         alt="Avatar"
                       />

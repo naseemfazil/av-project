@@ -282,6 +282,10 @@
             opacity: 0.75;
             background-color: white;
             padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        
         }
 
         .post-date {
@@ -296,6 +300,7 @@
 
         .game-content {
             line-height: 2;
+            font-size: 14px;
         }
 
         .likes-row {

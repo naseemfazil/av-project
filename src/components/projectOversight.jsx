@@ -13,6 +13,8 @@ import Project1 from '../assests/project-oversight/Project1.svg';
 import Project2 from '../assests/project-oversight/Project2.svg';
 import Project3 from '../assests/project-oversight/Project3.svg';
 
+import Img from '../components/img';
+
 const ProjectOversight = () => {
     // const SocialHubDetails = [
     //     {
@@ -96,7 +98,7 @@ const ProjectOversight = () => {
                         Project oversight
                     </span>
                     <span>
-                        <img src={Forward} alt=' ' />
+                        <Img src={Forward} alt=' ' />
                     </span>
                 </div>
 
@@ -105,7 +107,7 @@ const ProjectOversight = () => {
 
                         <div className='child-heading-row'>
                             <span>
-                                <img src={TopArrow} alt="" />
+                                <Img src={TopArrow} alt="" />
                             </span>
                         </div>
 
@@ -135,12 +137,12 @@ const ProjectOversight = () => {
 
                                     <div className='child-heading-row'>
                                         <span>
-                                            <img src={TopArrow} alt="" />
+                                            <Img src={TopArrow} alt="" />
                                         </span>
                                     </div>
 
                                     <div className='project-oversight_content'>
-                                        <img src={eachDtls.icon} alt="" width={70} />
+                                        <Img src={eachDtls.icon} alt="" width={70} />
                                         <div className=''>
                                             <p className='font-bold'>{eachDtls.title}</p>
                                             <p className='font-medium'>{eachDtls.content}</p>

@@ -6,6 +6,7 @@ import TopArrow from '../assests/Top-arrow.svg';
 import Birthday from '../assests/Birthday.svg';
 import Position from '../assests/New Position.svg';
 import Certification  from'../assests/New Certification.svg';
+import Img from '../components/img';
 
 const TodayCelabration = () => {
 
@@ -61,7 +62,7 @@ const TodayCelabration = () => {
                     Today Celebration
                 </span>
                 <span>
-                    <img src={TopArrow} alt='' />
+                    <Img src={TopArrow} alt='' />
                 </span>
             </div>
 
@@ -71,7 +72,7 @@ const TodayCelabration = () => {
                         <div className="details-card">
                             <span className="content">
                                 <span>
-                                    <img height="50" width="50" src={eachDtls.profile} alt="Avatar"></img>
+                                    <Img height="50" width="50" src={eachDtls.profile} alt="Avatar"/>
                                 </span>
                                 <span className="person-details">
                                     <span className="person-name">
@@ -79,7 +80,7 @@ const TodayCelabration = () => {
                                     </span>
                                     <span className="event-name">
                                         <span >
-                                            <img src={eachDtls.icon} />
+                                            <Img src={eachDtls.icon} />
                                         </span>
                                         <span>
                                             {eachDtls.subContent}

@@ -8,6 +8,7 @@ import Frustration from '../assests/voice_zone/Frustration.svg';
 import Idea from '../assests/voice_zone/Idea.svg';
 import Suggestion from '../assests/voice_zone/Suggestion.svg';
 import '../styles/_voiceZone.scss';
+import Img from '../components/img';
 
 
 
@@ -53,7 +54,7 @@ const VoiceZone = () => {
             <div className="heading-row">
                 <span>Voice Zone</span>
                 <span>
-                    <img src={Forward} alt=" " />
+                    <Img src={Forward} alt=" " />
                 </span>
             </div>
 
@@ -70,7 +71,7 @@ const VoiceZone = () => {
                         >
                             <div className="child-heading-row">
                                 <span>
-                                    <img src={TopArrow} alt="" />
+                                    <Img src={TopArrow} alt="" />
                                 </span>
                             </div>
 

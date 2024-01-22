@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/_commonStyles.scss';
 import '../styles/_upcomingEvents.scss';
 import TopArrow from '../assests/Top-arrow.svg';
+import Img from '../components/img';
 
 const UpcomingEvents = () => {
     return (
@@ -13,7 +14,7 @@ const UpcomingEvents = () => {
                     Upcoming Events
                 </span>
                 <span>
-                    <img src={TopArrow} alt='' />
+                    <Img src={TopArrow} alt='' />
                 </span>
             </div>
 
@@ -28,7 +29,7 @@ const UpcomingEvents = () => {
                             <span>
                                 Feb
                             </span>
-                            {/* <img height="50" width="50" src={'https://randomuser.me/api/portraits/men/20.jpg'} alt="Avatar"></img> */}
+                            {/* <Img height="50" width="50" src={'https://randomuser.me/api/portraits/men/20.jpg'} alt="Avatar"></Img> */}
                         </span>
                         <span className="event-details">
                             <span className="event-name">
@@ -63,7 +64,7 @@ const UpcomingEvents = () => {
                             <span>
                                 Feb
                             </span>
-                            {/* <img height="50" width="50" src={'https://randomuser.me/api/portraits/men/20.jpg'} alt="Avatar"></img> */}
+                            {/* <Img height="50" width="50" src={'https://randomuser.me/api/portraits/men/20.jpg'} alt="Avatar"></Img> */}
                         </span>
                         <span className="event-details">
                             <span className="event-name">
@@ -98,7 +99,7 @@ const UpcomingEvents = () => {
                             <span>
                                 Feb
                             </span>
-                            {/* <img height="50" width="50" src={'https://randomuser.me/api/portraits/men/20.jpg'} alt="Avatar"></img> */}
+                            {/* <Img height="50" width="50" src={'https://randomuser.me/api/portraits/men/20.jpg'} alt="Avatar"></Img> */}
                         </span>
                         <span className="event-details">
                             <span className="event-name">
@@ -132,7 +133,7 @@ const UpcomingEvents = () => {
                             <span>
                                 Feb
                             </span>
-                            {/* <img height="50" width="50" src={'https://randomuser.me/api/portraits/men/20.jpg'} alt="Avatar"></img> */}
+                            {/* <Img height="50" width="50" src={'https://randomuser.me/api/portraits/men/20.jpg'} alt="Avatar"></Img> */}
                         </span>
                         <span className="event-details">
                             <span className="event-name">
@@ -167,7 +168,7 @@ const UpcomingEvents = () => {
                             <span>
                                 Feb
                             </span>
-                            {/* <img height="50" width="50" src={'https://randomuser.me/api/portraits/men/20.jpg'} alt="Avatar"></img> */}
+                            {/* <Img height="50" width="50" src={'https://randomuser.me/api/portraits/men/20.jpg'} alt="Avatar"></Img> */}
                         </span>
                         <span className="event-details">
                             <span className="event-name">

@@ -11,7 +11,7 @@ import Survey4 from '../assests/survey_hub/Survey_4.svg';
 import Aviation from '../assests/survey_hub/Aviation.png';
 import Feedback from '../assests/survey_hub/Feedback.png';
 import '../styles/_surveyHub.scss';
-
+import Img from '../components/img';
 
 const SurveyHub = () => {
     const surveyHub = [
@@ -48,7 +48,7 @@ const SurveyHub = () => {
             <div className="heading-row">
                 <span>Survey Hub</span>
                 <span>
-                    <img src={Forward} alt=" " />
+                    <Img src={Forward} alt=" " />
                 </span>
             </div>
             <div className="rewards-recognition-container">
@@ -61,7 +61,7 @@ const SurveyHub = () => {
                 >
                     <div className="child-heading-row">
                         <span>
-                            <img src={TopArrow} alt="" />
+                            <Img src={TopArrow} alt="" />
                         </span>
                     </div>
 
@@ -83,7 +83,7 @@ const SurveyHub = () => {
 
                         <div className='survey-hub-sub-card ' >
                             <div className='survey-hub-image'>
-                                <img src={eachDtls.bgImg} alt='' />
+                                <Img src={eachDtls.bgImg} alt='' />
                             </div>
 
                             <div className='survey-hub-sub-conent' style={{ backgroundImage: `url(${eachDtls.bgColur})` }}>
@@ -93,7 +93,7 @@ const SurveyHub = () => {
                                 </p>
                                 <div className='survey-hub-readme'>
                                     <p className='underline-text'>Readme</p>
-                                    <img src={TopArrow} alt="" />
+                                    <Img src={TopArrow} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -103,7 +103,7 @@ const SurveyHub = () => {
 
                 {/* <div className='survey-hub-sub-card '>
                     <div className='survey-hub-image'>
-                        <img src={AirLine} alt='' />
+                        <Img src={AirLine} alt='' />
                     </div>
 
                     <div className='survey-hub-sub-conent'>
@@ -113,7 +113,7 @@ const SurveyHub = () => {
                         </p>
                         <div className='survey-hub-readme'>
                             <p className='underline-text'>Readme</p>
-                            <img src={TopArrow} alt="" />
+                            <Img src={TopArrow} alt="" />
                         </div>
                     </div>
                 </div> */}

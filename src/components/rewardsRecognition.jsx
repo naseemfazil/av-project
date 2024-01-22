@@ -7,6 +7,8 @@ import GiveGift from "../assests/rewards_and_recognition/give_gift.svg";
 import GiveGreeting from "../assests/rewards_and_recognition/give_greetings.svg";
 import Kudos from "../assests/rewards_and_recognition/kudos.svg";
 import "../styles/_rewardsRecognition.scss";
+import Img from '../components/img';
+
 const RewardsRecognition = () => {
   const rewardsRecognition = [
     {
@@ -53,7 +55,7 @@ const RewardsRecognition = () => {
       <div className="heading-row">
         <span>Rewards and recognition</span>
         <span>
-          <img src={Forward} alt=" " />
+          <Img src={Forward} alt=" " />
         </span>
       </div>
       <div className="rewards-recognition-container">
@@ -68,7 +70,7 @@ const RewardsRecognition = () => {
             >
               <div className="child-heading-row">
                 <span>
-                  <img src={TopArrow} alt="" />
+                  <Img src={TopArrow} alt="" />
                 </span>
               </div>
 

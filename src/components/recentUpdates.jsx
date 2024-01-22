@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/_common.scss';
 import '../styles/_commonStyles.scss';
 import '../styles/_recentUpdates.scss';
@@ -6,8 +6,11 @@ import Forward from '../assests/Forward and Backward Icon.svg';
 import TopArrow from '../assests/Top-arrow.svg';
 import AwardsIcon from '../assests/Appreciation-and-Awards/awards-icon.svg';
 import Eliipse from '../assests/recent-updates/Ellipse 1.png';
+import Img from '../components/img';
+import CircularProgressBar from './circularProgressBar';
 
 const RecentUpdates = () => {
+    const [progress, setProgress] = useState(50);
 
     return (
         <div className='recent-updates'>
@@ -16,7 +19,7 @@ const RecentUpdates = () => {
                     Recent Updates
                 </span>
                 <span>
-                    {/* <img src={TopArrow} alt=' ' /> */}
+                    {/* <Img src={TopArrow} alt=' ' /> */}
                 </span>
             </div>
 
@@ -27,11 +30,11 @@ const RecentUpdates = () => {
                         <div className='article-content'>
                             <div className='article-first-row'>
                                 <span>
-                                    <button className="kudos-btn"><span><img src={AwardsIcon} alt="" width={12} /></span> Awards </button>
+                                    <button className="kudos-btn"><span><Img src={AwardsIcon} alt="" width={12} /></span> Awards </button>
                                     <span className="kudos-btn-sub">Fri,05 Jan</span>
                                 </span>
                                 <span>
-                                    <img src={TopArrow} alt=' ' />
+                                    <Img src={TopArrow} alt=' ' />
                                 </span>
                             </div>
                             <div>
@@ -54,19 +57,19 @@ const RecentUpdates = () => {
                         <div className="second-one">
                             <span className='top-arrow'>
                                 <span>
-                                    <img src={TopArrow} alt=' ' />
+                                    <Img src={TopArrow} alt=' ' />
                                 </span>
                             </span>
                             <span>
                                 <div className=" second-one-circle-icon">
                                     <div class="second-one-round-image" style={{ zIndex: "1" }}>
-                                        <img
+                                        <Img
                                             src={"https://randomuser.me/api/portraits/men/20.jpg"}
                                             alt="Avatar"
                                         />
                                     </div>
                                     <div class="second-one-round-image" style={{ marginLeft: "-1rem", zIndex: "3" }}>
-                                        <img
+                                        <Img
                                             src={"https://randomuser.me/api/portraits/men/20.jpg"}
                                             alt="Avatar"
                                         />
@@ -101,12 +104,12 @@ const RecentUpdates = () => {
                                     </span>
 
                                     <span style={{ paddingTop: '0.3rem' }}>
-                                        <img src={TopArrow} alt=' ' />
+                                        <Img src={TopArrow} alt=' ' />
                                     </span>
                                 </span>
 
                                 <span>
-                                    <img src={"https://randomuser.me/api/portraits/men/20.jpg"}
+                                    <Img src={"https://randomuser.me/api/portraits/men/20.jpg"}
                                         // style={{ width: '45px', height: "45px", borderRadius: '50%', overflow: 'hidden', border: '5px solid white' }}
                                         alt=""
                                         className='story-qustions-img'
@@ -128,11 +131,11 @@ const RecentUpdates = () => {
                             <div className="story">
                                 <span className='icon-row'>
                                     <span>
-                                        <img src={TopArrow} alt=' ' />
+                                        <Img src={TopArrow} alt=' ' />
                                     </span>
                                 </span>
                                 <span className='story-img-container'>
-                                    <img src={Eliipse} alt="" />
+                                    <Img src={Eliipse} alt="" />
                                 </span>
                                 <span className='font-medium'>
                                     Create your story
@@ -154,7 +157,7 @@ const RecentUpdates = () => {
                                     Quick poll
                                 </span>
                                 <span>
-                                    <img src={TopArrow} alt=' ' style={{ color: 'white' }} />
+                                    <Img src={TopArrow} alt=' ' style={{ color: 'white' }} />
                                 </span>
                             </div>
 
@@ -178,6 +181,17 @@ const RecentUpdates = () => {
                                 </div>
                             </div>
                             <div className='qp-sec-left'>
+                                <div>
+                                    {/* <CircularProgressBar progress={progress} /> */}
+                                    {/* <input
+                                        type="range"
+                                        min="0"
+                                        max="100"
+                                        value={progress}
+                                        onChange={(e) => setProgress(e.target.value)}
+                                    />
+                                    <p>Progress: {progress}%</p> */}
+                                </div>
                                 <span>
                                     30 sec left icon
                                 </span>
@@ -196,14 +210,11 @@ const RecentUpdates = () => {
                         <div className='game-child-content'>
                             <div className='post-date'>
                                 <span>
-                                    <span>
-                                        post
-                                    </span>
-                                    <span>
-                                        Wed, 3rd Jan
-                                    </span>
+                                    <button className="kudos-btn"><span><Img src={AwardsIcon} alt="" width={12} /></span> Awards </button>
+
+                                    <span className="kudos-btn-sub">Fri,05 Jan</span>
                                 </span>
-                                <span>icon</span>
+                                <Img src={TopArrow} alt=' ' />
                             </div>
 
                             <div>
@@ -213,7 +224,7 @@ const RecentUpdates = () => {
                             </div>
 
                             <div>
-                                <span className='game-content'>
+                                <span className='game-content '>
                                     The world of PC gaming is a vast and ever-evolving landscape, offering an incredible array of experiences for players of all tastes and preferences.
                                 </span>
                             </div>

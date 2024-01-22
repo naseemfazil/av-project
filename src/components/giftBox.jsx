@@ -4,14 +4,14 @@ import '../styles/_recentUpdates.scss';
 import '../styles/_giftBox.scss';
 import Gift from '../assests/Gift-box.png';
 import TopArrow from '../assests/Top-arrow.svg';
-
+import Img from '../components/img';
 
 const GiftBox = () => {
     return (
         <div className='card gift-box-card'>
             <span className='gift-top-arrow' style={{display:'flex',width:'100%',justifyContent:'end'}}>
                 <span>
-                    <img src={TopArrow} alt=' ' />
+                    <Img src={TopArrow} alt=' ' />
                 </span>
             </span>
 
@@ -23,7 +23,7 @@ const GiftBox = () => {
                     <div className='gb-image'>
                         <span>
 
-                            <img src={Gift} alt="" />
+                            <Img src={Gift} alt="" />
                         </span>
                     </div>
 
@@ -41,13 +41,13 @@ const GiftBox = () => {
                         <div>
                             <div className="round-image_container">
                                 <div class="round-image" style={{ zIndex: "1" }}>
-                                    <img
+                                    <Img
                                         src={"https://randomuser.me/api/portraits/men/20.jpg"}
                                         alt="Avatar"
                                     />
                                 </div>
                                 <div class="round-image" style={{ marginLeft: "-1rem", zIndex: "3" }}>
-                                    <img
+                                    <Img
                                         src={"https://randomuser.me/api/portraits/men/20.jpg"}
                                         alt="Avatar"
                                     />

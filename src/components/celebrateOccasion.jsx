@@ -11,6 +11,7 @@ import Position from "../assests/celebrate_an_occasion/new_position.svg";
 import ProjectLaunch from "../assests/celebrate_an_occasion/project_launch.svg";
 import WelcomeTeam from "../assests/celebrate_an_occasion/welcome_to_the_team.svg";
 import WorkAnniversary from "../assests/celebrate_an_occasion/work_anniversary.svg";
+import Img from '../components/img';
 
 const CelebrateOccasion = () => {
   const celebrateOccasionDtls = [
@@ -58,7 +59,7 @@ const CelebrateOccasion = () => {
       <div className="heading-row">
         <span>Celebrate an Occasion</span>
         <span>
-          <img src={Forward} alt=" " />
+          <Img src={Forward} alt=" " />
         </span>
       </div>
       <div className="celebrate-occasion-container">
@@ -73,7 +74,7 @@ const CelebrateOccasion = () => {
             >
               <div className="child-heading-row">
                 <span>
-                  <img src={TopArrow} alt="" />
+                  <Img src={TopArrow} alt="" />
                 </span>
               </div>
 

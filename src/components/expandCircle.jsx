@@ -4,6 +4,7 @@ import '../styles/_common.scss';
 import '../styles/_commonStyles.scss';
 import TopArrow from '../assests/Top-arrow.svg';
 import Expand from '../assests/Expand your circle icon.svg';
+import Img from '../components/img';
 
 const ExpandCircle = () => {
 
@@ -59,7 +60,7 @@ const ExpandCircle = () => {
                     Expand your Cricle
                 </span>
                 <span>
-                    <img src={TopArrow} alt='' />
+                    <Img src={TopArrow} alt='' />
                 </span>
             </div>
 
@@ -70,7 +71,7 @@ const ExpandCircle = () => {
 
                             <span className="content">
                                 <span>
-                                    <img height="50" width="50" src={eachDtl.profile} alt="Avatar"></img>
+                                    <Img height="50" width="50" src={eachDtl.profile} alt="Avatar"/>
                                 </span>
                                 <span className="person-details">
                                     <span className="person-name">
@@ -78,7 +79,7 @@ const ExpandCircle = () => {
                                     </span>
                                     <span className="event-name">
                                         <span >
-                                            <img src={eachDtl.icon} />
+                                            <Img src={eachDtl.icon} />
                                         </span>
                                         <span>
                                             {eachDtl.subContent}

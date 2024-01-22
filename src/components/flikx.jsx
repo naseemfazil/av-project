@@ -5,6 +5,7 @@ import '../styles/_flikx.scss';
 import China from '../assests/flikx/china.jpg';
 import Night from '../assests/flikx/night.avif';
 import Road from '../assests/flikx/road.avif';
+import Img from '../components/img';
 
 const Flikx = () => {
 
@@ -53,7 +54,7 @@ const Flikx = () => {
                             <div className='name-content'>
 
                                 <span>
-                                    <img className='person-image' height="30" width="30" src={imageUrl} alt="Avatar"></img>
+                                    <Img className='person-image' height="30" width="30" src={imageUrl} alt="Avatar"/>
                                 </span>
 
                                 <span className='person-label'>

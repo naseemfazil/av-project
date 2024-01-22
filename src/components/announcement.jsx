@@ -3,6 +3,7 @@ import Forward from '../assests/Forward and Backward Icon.svg';
 import TopArrow from '../assests/Top-arrow.svg';
 import '../styles/_announcement.scss';
 import '../styles/_common.scss';
+import Img from '../components/img';
 
 
 const Announcement = () => {
@@ -16,7 +17,7 @@ const Announcement = () => {
                         Announcement
                     </span>
                     <span>
-                        <img src={TopArrow} alt='' />
+                        <Img src={TopArrow} alt='' />
                     </span>
                 </div>
 
@@ -35,7 +36,7 @@ const Announcement = () => {
                     Read more
                 </span>
                 <span>
-                    <img src={Forward} alt="" />
+                    <Img src={Forward} alt="" />
                 </span>
             </div>
         </div>

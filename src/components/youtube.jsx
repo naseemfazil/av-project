@@ -5,7 +5,7 @@ import "../styles/_commonStyles.scss";
 import Event from '../assests/youtube/Event-Icon.svg';
 import World from "../assests/Privacy - Public Icon.svg";
 import Forward from "../assests/Forward and Backward Icon.svg";
-
+import Img from '../components/img';
 
 
 const Youtube = () => {
@@ -24,7 +24,7 @@ const Youtube = () => {
                     <span className='event-one-game'>
 
                         <span className='event-time'>
-                            <img src={Event} alt="" width={28} />
+                            <Img src={Event} alt="" width={28}/>
                             <span className='font-medium'>Event</span>
                         </span>
                         <span className='game-event-container'>
@@ -35,7 +35,7 @@ const Youtube = () => {
                                 </span>
                                 <span style={{ color: "#ccc" }}>.</span>
 
-                                <img className="future-ai_title_world_image" src={World} alt="" />
+                                <Img className="future-ai_title_world_image" src={World} alt="" />
                             </div>
 
                             <span style={{ fontSize: '13px', color: '#6C757D' }}>
@@ -59,7 +59,7 @@ const Youtube = () => {
                         Read more
                     </span>
                     <span>
-                        <img src={Forward} alt=" " />
+                        <Img src={Forward} alt=" " />
                     </span>
 
                 </div>

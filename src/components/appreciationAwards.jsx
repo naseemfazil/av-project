@@ -7,6 +7,7 @@ import AwardsMock from '../assests/Appreciation-and-Awards/awards-mock.svg';
 import Kudos from '../assests/Appreciation-and-Awards/kudos.svg';
 import AwardsIcon from '../assests/Appreciation-and-Awards/awards-icon.svg';
 import KudosIcon from '../assests/Appreciation-and-Awards/kudos-icon.svg';
+import Img from '../components/img';
 
 const AppreciationAwards = () => {
   return (
@@ -25,10 +26,10 @@ const AppreciationAwards = () => {
           <div className="awards-sub-container">
             <div className="awards-sub-header">
               <div>
-                <button className="kudos-btn"><span><img src={KudosIcon} alt="" width={12} /></span> Kudos </button>
+                <button className="kudos-btn"><span><Img src={KudosIcon} alt="" width={12} /></span> Kudos </button>
                 <span className="kudos-btn-sub">Fri,05 Jan</span>
               </div>
-              <img src={TopArrow} alt="" />
+              <Img src={TopArrow} alt="" />
             </div>
             <div className="awards-sub-content">
               <p className="font-bold">Edrain Walter <span className="font-medium">and</span> 40 <span className="font-medium">others</span></p>
@@ -63,7 +64,7 @@ const AppreciationAwards = () => {
                 <button className="kudos-btn"><span><img src={AwardsIcon} alt="" width={12} /></span> Awards </button>
                 <span className="kudos-btn-sub">Fri,05 Jan</span>
               </div>
-              <img src={TopArrow} alt="" />
+              <Img src={TopArrow} alt="" />
             </div>
             <div className="awards-sub-content">
               <p className="font-bold">Edrain Walter <span className="font-medium">and</span> 40 <span className="font-medium">others</span></p>
@@ -80,17 +81,17 @@ const AppreciationAwards = () => {
 
       <div className="explore-card">
         <div className="explore-heading">
-          <img src={TopArrow} alt="" />
+          <Img src={TopArrow} alt="" />
         </div>
         <div className="round-image_container">
           <div class="round-image" style={{ zIndex: "1" }}>
-            <img
+            <Img
               src={"https://randomuser.me/api/portraits/men/20.jpg"}
               alt="Avatar"
             />
           </div>
           <div class="round-image" style={{ marginLeft: "-1rem", zIndex: "3" }}>
-            <img
+            <Img
               src={"https://randomuser.me/api/portraits/men/20.jpg"}
               alt="Avatar"
             />
