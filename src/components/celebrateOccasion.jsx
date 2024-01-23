@@ -4,13 +4,13 @@ import "../styles/_commonStyles.scss";
 import "../styles/_celebrateOccasion.scss";
 import Forward from "../assests/Forward and Backward Icon.svg";
 import TopArrow from "../assests/Top-arrow.svg";
-import CelebrateBirthday from "../assests/celebrate_an_occasion/celebrate_birthday.svg";
-import Certification from "../assests/celebrate_an_occasion/new_certification.svg";
-import Education from "../assests/celebrate_an_occasion/new_education.svg";
-import Position from "../assests/celebrate_an_occasion/new_position.svg";
-import ProjectLaunch from "../assests/celebrate_an_occasion/project_launch.svg";
-import WelcomeTeam from "../assests/celebrate_an_occasion/welcome_to_the_team.svg";
-import WorkAnniversary from "../assests/celebrate_an_occasion/work_anniversary.svg";
+import CelebrateBirthday from "../assests/celebrate_an_occasion/celebrate_birthday.webp";
+import Certification from "../assests/celebrate_an_occasion/new_certification.webp";
+import Education from "../assests/celebrate_an_occasion/new_education.webp";
+import Position from "../assests/celebrate_an_occasion/new_position.webp";
+import ProjectLaunch from "../assests/celebrate_an_occasion/project_launch.webp";
+import WelcomeTeam from "../assests/celebrate_an_occasion/welcome_to_the_team.webp";
+import WorkAnniversary from "../assests/celebrate_an_occasion/work_anniversary.webp";
 import Img from '../components/img';
 
 const CelebrateOccasion = () => {
@@ -70,6 +70,7 @@ const CelebrateOccasion = () => {
               style={{
                 marginTop: "4px",
                 backgroundImage: `url(${eachDtls.bgImg})`,
+                backgroundSize:'cover'
               }}
             >
               <div className="child-heading-row">

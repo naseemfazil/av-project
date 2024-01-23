@@ -1,15 +1,15 @@
 import React from 'react';
 import TopArrow from "../assests/Top-arrow.svg";
 import Forward from "../assests/Forward and Backward Icon.svg";
-import CreateSurvey from '../assests/survey_hub/create_survey.svg';
-import AirLine from '../assests/survey_hub/Airline.svg';
-import Announcement from '../assests/survey_hub/Announcement.svg';
-import Survey1 from '../assests/survey_hub/Survey_1.svg';
-import Survey2 from '../assests/survey_hub/Survey_2.svg';
-import Survey3 from '../assests/survey_hub/Survey_3.svg';
-import Survey4 from '../assests/survey_hub/Survey_4.svg';
-import Aviation from '../assests/survey_hub/Aviation.png';
-import Feedback from '../assests/survey_hub/Feedback.png';
+import CreateSurvey from '../assests/survey_hub/create_survey.webp';
+import AirLine from '../assests/survey_hub/Airline.webp';
+import Announcement from '../assests/survey_hub/Announcement.webp';
+import Survey1 from '../assests/survey_hub/Survey_1.webp';
+import Survey2 from '../assests/survey_hub/Survey_2.webp';
+import Survey3 from '../assests/survey_hub/Survey_3.webp';
+import Survey4 from '../assests/survey_hub/Survey_4.webp';
+import Aviation from '../assests/survey_hub/Aviation.webp';
+import Feedback from '../assests/survey_hub/Feedback.webp';
 import '../styles/_surveyHub.scss';
 import Img from '../components/img';
 
@@ -86,7 +86,7 @@ const SurveyHub = () => {
                                 <Img src={eachDtls.bgImg} alt='' />
                             </div>
 
-                            <div className='survey-hub-sub-conent' style={{ backgroundImage: `url(${eachDtls.bgColur})` }}>
+                            <div className='survey-hub-sub-conent' style={{ backgroundImage: `url(${eachDtls.bgColur})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                                 <p className="font-bold">{eachDtls.title}</p>
                                 <p className="font-medium">
                                     {eachDtls.content}

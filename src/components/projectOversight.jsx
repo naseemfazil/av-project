@@ -9,9 +9,9 @@ import Paypal from '../assests/project-oversight/Paypal.png';
 import Sketch from '../assests/project-oversight/sketch.png';
 
 
-import Project1 from '../assests/project-oversight/Project1.svg';
-import Project2 from '../assests/project-oversight/Project2.svg';
-import Project3 from '../assests/project-oversight/Project3.svg';
+import Project1 from '../assests/project-oversight/Project1.webp';
+import Project2 from '../assests/project-oversight/Project2.webp';
+import Project3 from '../assests/project-oversight/Project3.webp';
 
 import Img from '../components/img';
 
@@ -103,7 +103,7 @@ const ProjectOversight = () => {
                 </div>
 
                 <div className='project-oversight_container'>
-                    <div className='child-card project-create-card' style={{ marginTop: '4px', backgroundImage: `sss` }}>
+                    <div className='child-card project-create-card' style={{ marginTop: '4px' }}>
 
                         <div className='child-heading-row'>
                             <span>
@@ -133,7 +133,7 @@ const ProjectOversight = () => {
                     <div className='project-second-card'>
                         {projectOversight.map((eachDtls, index) => {
                             return (
-                                <div className='project-oversight_inner-card child-card' style={{ backgroundImage: `url(${eachDtls.bgImg})` }}>
+                                <div className='project-oversight_inner-card child-card' style={{ backgroundImage: `url(${eachDtls.bgImg})`,backgroundSize:'cover' }}>
 
                                     <div className='child-heading-row'>
                                         <span>

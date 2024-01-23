@@ -3,10 +3,10 @@ import "../styles/_common.scss";
 import "../styles/_commonStyles.scss";
 import Forward from "../assests/Forward and Backward Icon.svg";
 import TopArrow from "../assests/Top-arrow.svg";
-import Complaint from '../assests/voice_zone/Complaint.svg';
-import Frustration from '../assests/voice_zone/Frustration.svg';
-import Idea from '../assests/voice_zone/Idea.svg';
-import Suggestion from '../assests/voice_zone/Suggestion.svg';
+import Complaint from '../assests/voice_zone/Complaint.webp';
+import Frustration from '../assests/voice_zone/Frustration.webp';
+import Idea from '../assests/voice_zone/Idea.webp';
+import Suggestion from '../assests/voice_zone/Suggestion.webp';
 import '../styles/_voiceZone.scss';
 import Img from '../components/img';
 
@@ -66,7 +66,7 @@ const VoiceZone = () => {
                             className="child-card"
                             style={{
                                 marginTop: "4px",
-                                backgroundImage: `url(${eachDtls.bgImg})`,
+                                backgroundImage: `url(${eachDtls.bgImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat'
                             }}
                         >
                             <div className="child-heading-row">

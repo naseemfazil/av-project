@@ -1,11 +1,11 @@
 import React from "react";
 import TopArrow from "../assests/Top-arrow.svg";
 import Forward from "../assests/Forward and Backward Icon.svg";
-import GiveAward from "../assests/rewards_and_recognition/give_award.svg";
-import GiveBadges from "../assests/rewards_and_recognition/give_badges.svg";
-import GiveGift from "../assests/rewards_and_recognition/give_gift.svg";
-import GiveGreeting from "../assests/rewards_and_recognition/give_greetings.svg";
-import Kudos from "../assests/rewards_and_recognition/kudos.svg";
+import GiveAward from "../assests/rewards_and_recognition/give_award.webp";
+import GiveBadges from "../assests/rewards_and_recognition/give_badges.webp";
+import GiveGift from "../assests/rewards_and_recognition/give_gift.webp";
+import GiveGreeting from "../assests/rewards_and_recognition/give_greetings.webp";
+import Kudos from "../assests/rewards_and_recognition/kudos.webp";
 import "../styles/_rewardsRecognition.scss";
 import Img from '../components/img';
 
@@ -47,7 +47,7 @@ const RewardsRecognition = () => {
       title: "Share your expertise ",
       content: "Contribute valuble insights and knowlege to our community",
       btnTxt: "Write Article",
-      bgImg: GiveGreeting,
+      bgImg: Kudos,
     },
   ];
   return (
@@ -66,6 +66,8 @@ const RewardsRecognition = () => {
               style={{
                 marginTop: "4px",
                 backgroundImage: `url(${eachDtls.bgImg})`,
+                backgroundSize:'cover',
+                backgroundRepeat:'no-repeat'
               }}
             >
               <div className="child-heading-row">

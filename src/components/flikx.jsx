@@ -4,7 +4,7 @@ import '../styles/_commonStyles.scss';
 import '../styles/_flikx.scss';
 import China from '../assests/flikx/china.jpg';
 import Night from '../assests/flikx/night.avif';
-import Road from '../assests/flikx/road.avif';
+import Road from '../assests/flikx/road.webp';
 import Img from '../components/img';
 
 const Flikx = () => {

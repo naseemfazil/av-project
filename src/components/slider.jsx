@@ -1,14 +1,14 @@
 import React from "react";
 import "../styles/_slider.scss";
 import "../styles/_commonStyles.scss";
-import Survey from "../assests/Sliders/Survey.svg";
-import projectManagemrnt from "../assests/Sliders/Project Management.svg";
-import socialHub from "../assests/Sliders/Social-Hub.svg";
-import kudos from "../assests/Sliders/Kudos.svg";
-import rewards from "../assests/Sliders/Rewards.svg";
-import awards from "../assests/Sliders/Awards.svg";
-import voiceZone from "../assests/Sliders/Voice-zone.svg";
-import celebrations from "../assests/Sliders/Celebrations.svg";
+import Survey from "../assests/Sliders/Survey.webp";
+import projectManagemrnt from "../assests/Sliders/Project Management.webp";
+import socialHub from "../assests/Sliders/Social-Hub.webp";
+import kudos from "../assests/Sliders/Kudos.webp";
+import rewards from "../assests/Sliders/Rewards.webp";
+import awards from "../assests/Sliders/Awards.webp";
+import voiceZone from "../assests/Sliders/Voice-zone.webp";
+import celebrations from "../assests/Sliders/Celebrations.webp";
 // import Slider from "react-slick";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
@@ -134,7 +134,7 @@ const Sliders = () => {
               </div>
               <div
                 className="d-flex carosule-specific-first-item"
-                style={{ backgroundImage: `url(${sliderDetails[0].bgImg})` }}
+                style={{ backgroundImage: `url(${sliderDetails[0].bgImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}
               >
                 <div className="heading">
                   <h2>{sliderDetails[0].title ?? ""}</h2>
@@ -154,7 +154,7 @@ const Sliders = () => {
             <div className="row_container">
               <div
                 className="d-flex carosule-specific-item"
-                style={{ backgroundImage: `url(${sliderDetails[1].bgImg})` }}
+                style={{ backgroundImage: `url(${sliderDetails[1].bgImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}
               >
                 <div className="heading">
                   <h2>{sliderDetails[1].title ?? ""}</h2>
@@ -170,7 +170,7 @@ const Sliders = () => {
               </div>
               <div
                 className="d-flex carosule-specific-item"
-                style={{ backgroundImage: `url(${sliderDetails[2].bgImg})` }}
+                style={{ backgroundImage: `url(${sliderDetails[2].bgImg})` , backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}
               >
                 <div className="heading">
                   <h2>{sliderDetails[2].title ?? ""}</h2>
@@ -190,7 +190,7 @@ const Sliders = () => {
             <div className="row_container">
               <div
                 className="d-flex carosule-specific-item"
-                style={{ backgroundImage: `url(${sliderDetails[3].bgImg})` }}
+                style={{ backgroundImage: `url(${sliderDetails[3].bgImg})` , backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}
               >
                 <div className="heading">
                   <h2>{sliderDetails[3].title ?? ""}</h2>
@@ -206,7 +206,7 @@ const Sliders = () => {
               </div>
               <div
                 className="d-flex carosule-specific-item"
-                style={{ backgroundImage: `url(${sliderDetails[4].bgImg})` }}
+                style={{ backgroundImage: `url(${sliderDetails[4].bgImg})` , backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}
               >
                 <div className="heading">
                   <h2>{sliderDetails[4].title ?? ""}</h2>
@@ -226,7 +226,7 @@ const Sliders = () => {
             <div className="row_container">
               <div
                 className="d-flex carosule-specific-item"
-                style={{ backgroundImage: `url(${sliderDetails[5].bgImg})` }}
+                style={{ backgroundImage: `url(${sliderDetails[5].bgImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}
               >
                 <div className="heading">
                   <h2>{sliderDetails[5].title ?? ""}</h2>
@@ -242,7 +242,7 @@ const Sliders = () => {
               </div>
               <div
                 className="d-flex carosule-specific-item"
-                style={{ backgroundImage: `url(${sliderDetails[6].bgImg})` }}
+                style={{ backgroundImage: `url(${sliderDetails[6].bgImg})` , backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}
               >
                 <div className="heading">
                   <h2>{sliderDetails[6].title ?? ""}</h2>

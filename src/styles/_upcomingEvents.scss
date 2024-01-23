@@ -1,6 +1,9 @@
 .upcoming-event {
     height: 100%;
-    background-image: url('../assests/Expand\ your\ circle.svg');
+    background-image: url('../assests/Expand\ your\ circle.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
     border-radius: 10px;
     box-shadow: 0 0 0 2px rgba(62, 62, 63, 0.1);
 }

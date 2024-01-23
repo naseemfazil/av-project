@@ -1,6 +1,7 @@
 .explore-card {
-    background-image: url('../assests/Appreciation\ and\ Awards.svg');
+    background-image: url('../assests/Appreciation-and-Awards/appreciation-and-awards.webp');
     padding: 1rem;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     margin-top: 11px;
@@ -120,7 +121,7 @@
 }
 
 .awards-bg-img-container {
-    background-image: url('../assests/Appreciation-and-Awards/kudos.svg');
+    background-image: url('../assests/Appreciation-and-Awards/kudos.webp');
     height: 40vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -137,11 +138,13 @@
     flex-direction: column;
     justify-content: space-between;
 
-    background-image: url('../assests/Appreciation-and-Awards/awards-mock.svg');
+    background-image: url('../assests/Appreciation-and-Awards/awards-mock.webp');
     height: 40vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 10%;
+    background-position: 2%;
+    width: 100%;
+    object-fit: fill;
 }
 
 .awards-bg-img-content {

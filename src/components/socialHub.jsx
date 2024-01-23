@@ -4,11 +4,12 @@ import "../styles/_common.scss";
 import "../styles/_commonStyles.scss";
 import TopArrow from "../assests/Top-arrow.svg";
 import Forward from "../assests/Forward and Backward Icon.svg";
-import SocialHubBg from "../assests/Social_Hub_Post.svg";
-import Question from "../assests/Social_Hub_Question.svg";
-import Announment from "../assests/Social_Hub_Announcement.svg";
-import Article from "../assests/Social_Hub_Article.svg";
-import Blog from "../assests/Social_Hub_Blog.svg";
+import SocialHubBg from "../assests/social-hub/Social_Hub_Post.webp";
+
+import Question from "../assests/social-hub/Social_Hub_Question.webp";
+import Announment from "../assests/social-hub/Social_Hub_Announcement.webp";
+import Article from "../assests/social-hub/Social_Hub_Article.webp";
+import Blog from "../assests/social-hub/Social_Hub_Blog.webp";
 import World from "../assests/Privacy - Public Icon.svg";
 import FutureProfile from '../assests/future-ai-profile.jpg';
 import Img from '../components/img';
