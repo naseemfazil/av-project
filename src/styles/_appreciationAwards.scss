@@ -47,6 +47,9 @@
     border-radius: 50%;
     overflow: hidden;
     background-color: #3A36CE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .round-text p {
@@ -140,11 +143,9 @@
 
     background-image: url('../assests/Appreciation-and-Awards/awards-mock.webp');
     height: 40vh;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: 2%;
-    width: 100%;
-    object-fit: fill;
 }
 
 .awards-bg-img-content {
